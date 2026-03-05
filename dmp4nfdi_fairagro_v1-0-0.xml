@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-01-30T09:35:05.511239+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-03-05T06:44:11.169881+01:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>dmp4nfdi/v1-0-0</uri_path>
@@ -225,11 +225,11 @@
 		<help lang="en"/>
 		<text lang="en">Which persons or institutions are responsible for the project coordination?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person / institution</verbose_name>
 		<help lang="de"/>
 		<text lang="de">Welche Personen oder Institutionen sind verantwortlich für die Projektkoordination?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person / Institution</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -457,11 +457,21 @@
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/statutatory_approval/yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en"/>
+		<help lang="en">Depending on the type of research project, a statutory approval / permit may be required. This applies in particular to:
+
+-  Pesticide trials with non-approved substances: Importing, using, or placing on the market non-approved substances requires approval from the BVL (Federal Office for Food Safety and Animal Health); see &lt;a href=&quot;https://www.bvl.bund.de/DE/Arbeitsbereiche/04_Pflanzenschutzmittel/03_Antragsteller/05_Genehmigungsverfahren/01_Versuche/psm_Versuche_node.html&quot; target=&quot;_blank&quot;&gt;Approval and notification procedures at the BVL&lt;/a&gt;.
+- Animal experiments: Approval in accordance with § 8 of the Animal Welfare Act (TierSchG) is required if procedures are carried out on vertebrates or cephalopods (see &lt;a href=&quot;https://verwaltung.bund.de/leistungsverzeichnis/en/leistung/99110014006000/herausgeber/RP-10268971/region/070000000000&quot; target=&quot;_blank&quot;&gt;Applying for approval for animal experiments&lt;/a&gt;). Minimal procedures that do not cause stress to the animals may only need to be reported.
+- Genetic engineering work: Subject to notification or approval in accordance with the Genetic Engineering Act (GenTG) (S1 = notification requirement, S2–S4 = approval requirement); releases of GMOs are generally subject to approval, see &lt;a href=&quot;https://www.bvl.bund.de/DE/Arbeitsbereiche/06_Gentechnik/1_Aufgaben_im_Bereich_Gentechnik/04_Inverkehrbringen/02_Verfahren/verfahren_node.html&quot; target=&quot;_blank&quot;&gt;Approval procedure for placing on the market&lt;/a&gt;.
+- Drones/aircraft: Permit required for applying pesticides (see &lt;a href=&quot;https://www.gesetze-im-internet.de/pflschg_2012/__18.html&quot; target=&quot;_blank&quot;&gt;PflSchG § 18&lt;/a&gt;) or flying over nature reserves (see &lt;a href=&quot;https://www.dfs.de/homepage/en/drone-flight/applications-and-approvals/&quot; target=&quot;_blank&quot;&gt;DFS&lt;/a&gt;)</help>
 		<text lang="en">Is a statutory approval / permit needed for the research?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de"/>
+		<help lang="de">Je nach Art des Forschungsvorhabens kann eine gesetzliche Genehmigung erforderlich sein. Dies gilt insbesondere für:
+
+- Pflanzenschutzmittelversuche mit nicht zugelassenen Stoffen: Für die Einfuhr, Verwendung oder das Inverkehrbringen nicht zugelassener Stoffe ist eine Genehmigung des BVL erforderlich, siehe &lt;a href=&quot;https://www.bvl.bund.de/DE/Arbeitsbereiche/04_Pflanzenschutzmittel/03_Antragsteller/05_Genehmigungsverfahren/01_Versuche/psm_Versuche_node.html&quot; target=&quot;_blank&quot;&gt;Genehmigungs- und Anzeigeverfahren beim BVL&lt;/a&gt;.
+- Tierversuche: Genehmigung gemäß § 8 Tierschutzgesetz (TierSchG) erforderlich, wenn Eingriffe mit Wirbeltieren oder Kopffüßern durchgeführt werden (siehe &lt;a href=&quot;https://verwaltung.bund.de/leistungsverzeichnis/de/leistung/99110014006000/herausgeber/RP-10268971/region/070000000000&quot; target=&quot;_blank&quot;&gt;Genehmigung von Tierversuchen beantragen&lt;/a&gt;). Minimale Eingriffe ohne Belastung der Tiere müssen ggf. nur angezeigt werden.
+- Gentechnische Arbeiten: Meldepflichtig oder genehmigungspflichtig nach dem Gentechnikgesetz (GenTG) (S1 = Meldepflicht, S2–S4 = Genehmigungspflicht); Inverkehrbringen von GVO sind grundsätzlich genehmigungspflichtig, siehe  &lt;a href=&quot;https://www.bvl.bund.de/DE/Arbeitsbereiche/06_Gentechnik/1_Aufgaben_im_Bereich_Gentechnik/04_Inverkehrbringen/02_Verfahren/verfahren_node.html&quot; target=&quot;_blank&quot;&gt;Genehmigungsverfahren zum Inverkehrbringen&lt;/a&gt;.
+-  Drohnen/Fluggeräte: Genehmigungspflicht für den Einsatz von Pestiziden (siehe &lt;a href=&quot;https://www.gesetze-im-internet.de/pflschg_2012/__18.html&quot; target=&quot;_blank&quot;&gt;PflSchG § 18&lt;/a&gt;) oder das Überfliegen von Naturschutzgebieten (siehe &lt;a href=&quot;https://www.dfs.de/homepage/de/drohnenflug/antraege-und-genehmigungen/&quot; target=&quot;_blank&quot;&gt;DFS&lt;/a&gt;)</help>
 		<text lang="de">Wird für das Forschungsvorhaben eine gesetzliche Genehmigung benötigt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -601,7 +611,9 @@
 		<unit/>
 		<width/>
 		<optionsets/>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.fairagro.net/terms/conditions/permit_is_needed"/>
+		</conditions>
 	</question>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/statutatory_approval/title">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -610,6 +622,15 @@
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/statutatory_approval"/>
 	</attribute>
+	<condition dc:uri="https://rdmo.fairagro.net/terms/conditions/permit_is_needed">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>permit_is_needed</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/official_approval/statutatory_approval/yesno"/>
+		<relation>neq</relation>
+		<target_text/>
+		<target_option dc:uri="https://rdmorganiser.github.io/terms/options/ethics_permit_options/248"/>
+	</condition>
 	<page dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Legal_Issues">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>dmp4nfdi/v1-0-0/DMP/Legal_Issues</uri_path>
@@ -664,7 +685,7 @@
 		<uri_path>dmp4nfdi/v1-0-0/DMP/Legal_Issues/odrl_hasPolicy/Rule</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
-		<is_collection>True</is_collection>
+		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">List standards, guidelines, or specifications that are relevant to your discipline, your research, and your institution. In agricultural research, these could include data management requirements, the FAIR principles, subject-specific metadata standards such as MIAPPE, institutional guidelines on open access, data sharing, and research integrity, such as the &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=“_blank”&gt;DFG guidelines on handling research data in biodiversity research&lt;/a&gt;.</help>
 		<text lang="en">Are there any significant research codes or professional standards to be taken into account?</text>
@@ -676,7 +697,7 @@
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>checkbox</widget_type>
+		<widget_type>radio</widget_type>
 		<value_type>option</value_type>
 		<maximum/>
 		<minimum/>
@@ -763,30 +784,36 @@
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr/yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Data or software may be subject to copyright or other protective rights. The legal situation can vary considerably from country to country, even within the EU. In Germany, according to the Copyright Act (UrhG), works of literature, science, and art that represent a “personal intellectual creation” are protected by copyright. Copyright protection expires 70 years after the death of the author. Pure data, e.g., measurement data or survey data, but also metadata (except for “descriptive” metadata, if applicable) are not eligible for protection. In § 2, the UrhG lists the following types of protected works, although the list is not exhaustive:
+		<help lang="en">In Germany, copyright law protects works of literature, science, and art that must meet a “creative threshold” (§ 2 UrhG). Raw data alone is generally not protected, but creative selection, arrangement, or processing of data may be.&lt;br&gt;
+Database Protection (§§ 87a–87e UrhG) safeguards substantial investment in collecting or organizing data, even without creative input.&lt;br&gt;
 
-* Literary works, such as written works, speeches, and computer programs
-* Musical works
-* Pantomime works, including works of dance
-* Works of fine art, including works of architecture and applied art, and designs for such works
-* Photographic works, including works created in a manner similar to photographic works
-* Scientific or technical representations such as drawings, plans, maps, sketches, tables, and plastic representations.
+Photographs (§ 72 UrhG) may be protected even without full creativity, as long as they show an original image and involve a minimum level of skill; protection is assessed case by case.
+Trade Secret Law (§§ 1 ff. GeschGehG) protects information that is secret, economically valuable, and subject to confidentiality measures.&lt;br&gt;
+For detailed guidance, see &lt;a href=&quot;https://knowledgebase.fairagro.net/en/legal/rights&quot; target=&quot;_blank&quot;&gt;What rights exist in terms of data? (Bress, FIZ Karlsruhe, FAIRagro)&lt;/a&gt;, licensed under CC-BY 4.0, or contact the &lt;a href=&quot;https://fairagro.net/en/helpdesk/&quot; target=&quot;_blank&quot;&gt;FAIRagro Helpdesk&lt;/a&gt;.&lt;br&gt;
+Relevant property rights with regard to agriculture include:
 
-According to Section 3, “translations and other adaptations” of works that are the personal intellectual creations of the adapter are also protected. Finally, according to Section 4, compilations and database works are also protected, which may be relevant in the field of research data. Compilations are defined as “collections of works, data, or other independent elements that are a personal intellectual creation due to the selection or arrangement of the elements.” A “database work within the meaning of the law” is a “compilation whose elements are systematically or methodically arranged and individually accessible by electronic means or in any other way.” Other relevant property rights may include industrial property rights such as patents, utility models, plant variety protection [for plant breeds], semiconductor protection, trademarks, geographical indications of origin, registered designs, or business names. 
-Further information on this can be found at &lt;a href=&quot;https://knowledgebase.fairagro.net/en/legal/rights/&quot; target=&quot;_blank&quot;&gt;What rights exist in terms of data?&lt;/a&gt;.</help>
+- &lt;a href=&quot;https://food.ec.europa.eu/plants/plant-variety-property-rights_en &quot; target=&quot;_blank&quot;&gt;Plant Variety Protection&lt;/a&gt; for new plant breeds
+- &lt;a href=&quot;https://www.dpma.de/english/patents/patent_protection/index.html&quot; target=&quot;_blank&quot;&gt;Patents&lt;/a&gt; &amp; &lt;a href=&quot;https://www.dpma.de/english/utility_models/index.html&quot; target=&quot;_blank&quot;&gt;Utility Models&lt;/a&gt;, e.g., for technical inventions in agricultural technologies
+- &lt;a href=&quot;https://www.dpma.de/english/trade_marks/index.html&quot; target=&quot;_blank&quot;&gt;Trademarks&lt;/a&gt;, e.g., to protect brand names of seeds, fertilizers, pesticides, etc.
+- &lt;a href=&quot;https://www.dpma.de/english/trade_marks/indications_of_geographical_origin/index.html&quot; target=&quot;_blank&quot;&gt;Geographical Indications of Origin&lt;/a&gt; for products linked to a specific region, e.g., “Champagne”
+
+Other relevant industrial property rights may include semiconductor protection, registered designs, or business names.</help>
 		<text lang="en">Does the project use and/or produce data that is protected by intellectual or industrial property rights?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Daten oder Software können Urheber- oder anderen Schutzrechten unterliegen. Die Rechtslage kann selbst in der EU von Land zu Land erheblich abweichen. In Deutschland sind nach dem Urheberrechtsgesetz (UrhG) Werke der Literatur, Wissenschaft und Kunst, die eine &quot;persönliche geistige Schöpfung&quot; darstellen, urheberrechtlich geschützt. Der urheberrechtliche Schutz erlischt 70 Jahre nach dem Tod der bzw. des Urheberin/s. Reine Daten, z.B. Messdaten oder Surveydaten, aber auch Metadaten (bis auf ggf. &quot;beschreibende&quot; Metadaten) sind hingegen nicht schutzfähig. In § 2 nennt das UrhG folgende geschützte Werkarten, wobei die Aufzählung nicht abschließend ist:
+		<help lang="de">In Deutschland schützt das Urheberrecht gemäß § 2 UrhG Werke der Literatur, Wissenschaft und Kunst, die eine sogenannte „Schöpfungshöhe“ erreichen. Rohdaten sind in der Regel nicht geschützt, doch eine kreative Auswahl, Anordnung, Kuratierung oder Verarbeitung von Daten kann urheberrechtlichen Schutz begründen.&lt;br&gt;
+Der Datenbankschutz (§§ 87a–87e UrhG) schützt hingegen eine wesentliche Investition in die Sammlung oder Organisation von Daten, auch ohne dass ein schöpferischer Beitrag vorliegt.&lt;br&gt;
+Auch Fotografien können ohne hohe kreative Leistung urheberrechtlich geschützt sein, sofern sie ein eigenständiges Bildmotiv zeigen und ein Mindestmaß an persönlicher Leistung oder Geschicklichkeit aufweisen. Ob ein Schutz besteht, wird jeweils im Einzelfall beurteilt.&lt;br&gt;
+Das Geschäftsgeheimnisgesetz (§§ 1 ff. GeschGehG) schützt Informationen, die geheim, wirtschaftlich wertvoll und durch angemessene Vertraulichkeitsmaßnahmen gesichert sind. &lt;br&gt;
+Ausführliche Informationen finden Sie unter &lt;a href=&quot;https://knowledgebase.fairagro.net/legal/rights/&quot; target=&quot;_blank&quot;&gt;Welche Rechte bestehen an Daten? (Bress, FIZ Karlsruhe, FAIRagro)&lt;/a&gt;, lizenziert unter CC-BY 4.0, oder wenden Sie sich an den &lt;a href=&quot;https://fairagro.net/helpdesk/&quot; target=&quot;_blank&quot;&gt;FAIRagro-Helpdesk&lt;/a&gt;.&lt;br&gt;
+Relevante Schutzrechte im Bereich der Landwirtschaft sind unter anderem:
 
-* Sprachwerke, wie Schriftwerke, Reden und Computerprogramme
-* Werke der Musik
-* pantomimische Werke einschließlich Werke der Tanzkunst
-* Werke der bildenden Künste einschließlich der Werke der Baukunst und der angewandten Kunst und Entwürfe solcher Werke
-* Lichtbildwerke einschließlich der Werke, die ähnlich wie Lichtbildwerke geschaffen werden
-* Darstellungen wissenschaftlicher oder technischer Art wie Zeichnungen, Pläne, Karten, Skizzen, Tabellen und plastische Darstellungen.
+- &lt;a href=&quot;https://www.bundessortenamt.de/bsa/sorten/sortenschutz&quot; target=&quot;_blank&quot;&gt;Sortenschutz&lt;/a&gt; für neue Pflanzenzüchtungen
+- &lt;a href=&quot;https://www.dpma.de/patente/&quot; target=&quot;_blank&quot;&gt;Patente&lt;/a&gt; und &lt;a href=&quot;https://www.dpma.de/gebrauchsmuster/&quot; target=&quot;_blank&quot;&gt;Gebrauchsmuster&lt;/a&gt;, z. B. für technische Erfindungen in der Agrartechnologie
+- &lt;a href=&quot;https://www.dpma.de/marken/&quot; target=&quot;_blank&quot;&gt;Marken&lt;/a&gt;, z. B. zum Schutz von Markennamen für Saatgut, Düngemittel, Pflanzenschutzmittel usw.
+- &lt;a href=&quot;https://www.dpma.de/marken/geografische_herkunftsangaben/index.html&quot; target=&quot;_blank&quot;&gt;Geografische Herkunftsangaben&lt;/a&gt; zum Schutz landwirtschaftlicher Erzeugnisse, die mit einer bestimmten Region verbunden sind, z. B. „Champagner“
 
-Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werken geschützt, die persönliche geistige Schöpfungen des Bearbeiters sind&quot;. Schließlich sind nach § 4 auch Sammelwerke und Datenbankwerke geschützt, was im Bereich Forschungsdaten durchaus relevant sein kann. Sammelwerke werden dabei definiert als &quot;Sammlungen von Werken, Daten oder anderen unabhängigen Elementen, die aufgrund der Auswahl oder Anordnung der Elemente eine persönliche geistige Schöpfung sind&quot;. Bei einem &quot;Datenbankwerk im Sinne des Gesetzes&quot; handelt es sich um ein &quot;Sammelwerk, dessen Elemente systematisch oder methodisch angeordnet und einzeln mit Hilfe elektronischer Mittel oder auf andere Weise zugänglich sind&quot;. Weitere relevante Schutzrechte können gewerbliche Schutzrechte wie Patente, Gebrauchsmuster, Sortenschutz [bei Pflanzenzüchtungen], Halbleiterschutz, Marken, geographische Herkunftsangaben, eingetragene Designs oder geschäftliche Bezeichnungen sein. Weitere Informationen hierzu finden Sie unter &lt;a href=&quot;https://knowledgebase.fairagro.net/legal/rights/&quot; target=&quot;_blank&quot;&gt;Welche Rechte bestehen an Daten?&lt;/a&gt;.</help>
+Weitere einschlägige gewerbliche Schutzrechte können den Halbleiterschutz, eingetragene Designs oder Geschäftsbezeichnungen umfassen.</help>
 		<text lang="de">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -853,10 +880,10 @@ Nach § 3 sind auch &quot;Übersetzungen und andere Bearbeitungen&quot; von Werk
 		<is_collection>True</is_collection>
 		<title lang="en">Who is responsible for adequate handling of the research data (description of roles and responsibilities within the project)?</title>
 		<help lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person</verbose_name>
 		<title lang="de">Wer ist verantwortlich für den adäquaten Umgang mit den Forschungsdaten (Beschreibung der Rollen und Verantwortlichkeiten innerhalb des Projekts)?</title>
 		<help lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dfg/responsibilities_resources/project_responsibilities_resources/rdm_contact_questions/contact_data_curation_name" order="0"/>
@@ -1272,13 +1299,13 @@ If there is a person/role in your project who is also responsible for data manag
 We recommend specifying the persons in the following form: title; first name, last Name; ORCID (if available); professional position; affiliation; contact details; role in the project.</help>
 		<text lang="en">Who is also responsible for adequate handling of the research data (description of the roles and responsibilities within the project)?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person</verbose_name>
 		<help lang="de">Grundsätzlich sind gemäß der Guten Wissenschaftlichen Praxis (GWP) alle Forschenden selbst für den sorgfältigen Umgang mit ihren Forschungsdaten verantwortlich.
 Gibt es in Ihrem Projekt ggfs. eine Person/Rolle, die darüber hinaus Verantwortung für das Datenmanagement trägt, etwa ein(e) Data Steward oder Data Scientist, dann beschreiben Sie expliziter die Rollenaufteilung und Verantwortlichkeiten. &lt;br/&gt;
 Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachname; ORCID (falls verfügbar); berufliche Position; Zugehörigkeit; Kontaktdaten; Rolle im Projekt.</help>
 		<text lang="de">Wer ist noch verantwortlich für den adäquaten Umgang mit den Forschungsdaten (Beschreibung der Rollen und Verantwortlichkeiten innerhalb des Projekts)?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1319,11 +1346,11 @@ Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachnam
 		<help lang="en">We recommend specifying the persons in the following form: title; first name, last Name; ORCID (if available); professional position; affiliation; contact details; role in the project.</help>
 		<text lang="en">Who is responsible for the data documentation and for checking the metadata and data documentation for accuracy and completeness?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person</verbose_name>
 		<help lang="de">Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachname; ORCID (falls verfügbar); berufliche Position; Zugehörigkeit; Kontaktdaten; Rolle im Projekt.</help>
 		<text lang="de">Wer ist verantwortlich für die Datendokumentation und für die Prüfung der Metadaten und Datendokumentation auf Richtigkeit und Vollständigkeit?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1387,13 +1414,13 @@ Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachnam
 We recommend specifying the persons in the following form: title; first name, last Name; ORCID (if available); professional position; affiliation; contact details; role in the project.</help>
 		<text lang="en">Who is responsible for the backups?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person</verbose_name>
 		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird.
 
 Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachname; ORCID (falls verfügbar); berufliche Position; Zugehörigkeit; Kontaktdaten; Rolle im Projekt.</help>
 		<text lang="de">Wer ist verantwortlich für die Erstellung der Backups?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1450,13 +1477,13 @@ Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachnam
 We recommend specifying the persons in the following form: title; first name, last Name; ORCID (if available); professional position; affiliation; contact details; role in the project.</help>
 		<text lang="en">Who is responsible for the maintenance of the PIDs - i.e. the long-term object accessibility?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person</verbose_name>
 		<help lang="de">Die Voraussetzung dafür, dass persistente Identifikatoren auch wirklich halten, was sie versprechen, ist, dass sie - wie auch die Objekte, auf die referenziert wird - dauerhaft und verlässlich gepflegt werden. D. h. beispielsweise, dass bei einer Änderung des Speicherortes des Objekts die Information über den neuen Speicherort entsprechend aktualisiert werden muss. Werden die Daten in einem Datenzentrum oder -repositorium gespeichert, wird diese Verantwortung i.d.R. von diesem übernommen. Um sicher zu sein, sollten die Verantwortlichkeiten jedoch in jedem Fall geprüft bzw. geklärt werden. Wenn keine Informationen zur Wartung der Identifikatoren vorliegen, wenden Sie sich bitte an das jeweilige Rechenzentrum oder Repository. 
 
 Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachname; ORCID (falls verfügbar); berufliche Position; Zugehörigkeit; Kontaktdaten; Rolle im Projekt.</help>
 		<text lang="de">Wer ist für die Pflege der PIDs verantwortlich – d. h. für die langfristige Zugänglichkeit der Objekte?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1511,11 +1538,11 @@ Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachnam
 		<help lang="en">Examples of this are the allocation of access data/access authorizations, the optimization of storage space after a certain retention period or the transfer of authority to a new contact person. Such decisions are necessary, for example, in the event of a loss of access data, a new access request or the departure of the previous contact person. We recommend to name the head of department or the department itself.</help>
 		<text lang="en">What Persons or institutions can be mentioned as the long-term contact who can decide on the data?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Person / institution</verbose_name>
 		<help lang="de">Beispiele hierfür sind die Vergabe von Zugangsdaten/Zugangsberechtigungen, die Optimierung des Speicherplatzes nach einer gewissen Aufbewahrungsfrist oder die Übergabe der Befugnisse an einen neuen Ansprechpartner. Solche Entscheidungen sind beispielsweise bei einem Verlust von Zugangsdaten, bei einer neuen Zugangsanfrage oder beim Ausscheiden des bisherigen Ansprechpartners erforderlich. Wir empfehlen, den Abteilungsleiter oder die Abteilung selbst zu benennen.</help>
 		<text lang="de">Welche Personen oder Institutionen können als langfristige Ansprechpartner genannt werden, die über die Daten entscheiden können?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Person / Institution</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>text</widget_type>
@@ -1615,17 +1642,13 @@ Wir empfehlen, die Personen in folgender Form anzugeben: Titel; Vorname, Nachnam
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/costs/usage/non_personnel"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;i&gt;This includes, for example, setting up or supporting a special IT infrastructure for your project, the preparation of data sets or user fees for data repositories.&lt;/i&gt;
-
-Name both the resources that you bring in as your own contribution or as part of the basic equipment, as well as the resources for which you are applying for funds. &lt;br/&gt;
+		<help lang="en">Name both the resources that you bring in as your own contribution or as part of the basic equipment, as well as the resources for which you are applying for funds. &lt;br/&gt;
 This can involve technical or IT resources as well as expertise that is brought in, for example, by data managers or IT experts.&lt;br/&gt;
 If necessary, provide more detailed information on the respective items.</help>
 		<text lang="en">Which resources (costs; time or other) are required to implement adequate handling of research data within the project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;i&gt;Dazu gehören z.B. die Einrichtung oder die Betreuung einer speziellen IT-Infrastruktur für Ihr Projekt, die Aufbereitung von Datensätzen oder Nutzungsgebühren für Datenrepositorien.&lt;/i&gt;
-
-Nennen Sie hier sowohl Ressourcen, die Sie als Eigenleistung bzw. im Rahmen der Grundausstattung einbringen, als auch Ressourcen, für die Sie Mittel beantragen. &lt;br/&gt;
+		<help lang="de">Nennen Sie hier sowohl Ressourcen, die Sie als Eigenleistung bzw. im Rahmen der Grundausstattung einbringen, als auch Ressourcen, für die Sie Mittel beantragen. &lt;br/&gt;
 Es kann sich hierbei sowohl um technische bzw. IT-Ressourcen handeln, als auch um Expertise, die z.B. durch Datenmanagement- oder IT-ExpertInnen eingebracht wird. Machen Sie ggf. genauere Angaben zu den jeweiligen Posten.</help>
 		<text lang="de">Welche Ressourcen (Kosten; Zeit oder anderes) sind erforderlich, um einen adäquaten Umgang mit Forschungsdaten im Projekt umzusetzen?</text>
 		<default_text lang="de"/>
@@ -1733,7 +1756,7 @@ Es kann sich hierbei sowohl um technische bzw. IT-Ressourcen handeln, als auch u
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>resources_option/costs</uri_path>
 		<dc:comment/>
-		<text lang="en">material costs</text>
+		<text lang="en">Material costs</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -1776,13 +1799,27 @@ Es kann sich hierbei sowohl um technische bzw. IT-Ressourcen handeln, als auch u
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/id"/>
 		<is_collection>True</is_collection>
-		<title lang="en">Content Data Description</title>
+		<title lang="en">Project Data Description</title>
 		<short_title lang="en"/>
-		<help lang="en"/>
+		<help lang="en">The following questions relate to your project data. Please structure your research data by creating data sets (data packages) and answering the following questions separately for each data set.
+A data set comprises a logical unit of data for which comparable conditions apply with regard to storage, documentation, access restrictions, publication, archiving, and reuse. The aim is to group the data in such a way that the information in the data management plan can be provided consistently and unambiguously.
+The formation of data sets can be based, for example, on:
+
+- Collection or generation methods
+- Data types or formats
+- Work packages
+- Legal, ethical, or organizational requirements</help>
 		<verbose_name lang="en"/>
-		<title lang="de">Inhaltliche Datenbeschreibung</title>
+		<title lang="de">Projektdatenbeschreibung</title>
 		<short_title lang="de"/>
-		<help lang="de"/>
+		<help lang="de">Die nachfolgenden Fragen beziehen sich auf die Daten Ihres Projekts. Bitte strukturieren Sie Ihre Forschungsdaten, indem Sie Datensätze (Datenpakete) anlegen und die folgenden Fragen für jeden Datensatz separat beantworten.
+Ein Datensatz umfasst eine logische Einheit von Daten, für die im Hinblick auf Speicherung, Dokumentation, Zugriffsbeschränkungen, Veröffentlichung, Archivierung und Nachnutzung vergleichbare Rahmenbedingungen gelten. Ziel ist es, die Daten so zu gruppieren, dass die Angaben im Datenmanagementplan konsistent und eindeutig getroffen werden können.
+Die Bildung von Datensätzen kann sich beispielsweise orientieren an:
+
+- Erhebungs- oder Generierungsmethoden
+- Datentypen oder Formaten
+- Arbeitspaketen 
+- Rechtliche, ethische oder organisatorische Anforderungen</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1810,7 +1847,7 @@ Es kann sich hierbei sowohl um technische bzw. IT-Ressourcen handeln, als auch u
 		<is_optional>False</is_optional>
 		<help lang="en">Please briefly describe the data type and / or the method used to create or collect the data, for example:
 
-* time series image data of plants arquired with automated imaging systems and sensors (RGB, NIR, static fluoresence imaging, kinectic chlorophyll fluoresence imaging)
+* time series image data of plants acquired with automated imaging systems and sensors (RGB, NIR, static fluorescence imaging, kinetic chlorophyll fluorescence imaging)
 * quantitative data on disease symptoms for powdery mildew, yellow rust, and brown rust
 * quantitative assessments of soil quality indicators such as nutrient dynamics, microbial biomass, and indicators of structural degradation</help>
 		<text lang="en">What kind of dataset is it?</text>
@@ -2105,7 +2142,7 @@ Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht 
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Machine learning Modelle</text>
+		<text lang="de">Machine Learning Modelle</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -2256,7 +2293,7 @@ Ideally, you provide a citable source (e.g. via a PID) for the data. Alternative
 		<verbose_name lang="en"/>
 		<help lang="de">Bitte geben Sie an, welche bestehenden Daten im Projekt verwendet werden. Hier sind sowohl Daten aus vorherigen Projekten gemeint, die vielleicht nur intern auf Anfrage geteilt wurden, als auch öffentlich oder kommerziell verfügbare Daten.
 
-Um geeignete agrosystemspezifische Daten zur Nachnutzung zu finden, können Sie die &lt;a href=&quot;https://datasets.search-hub.fairagro.net/&quot; target=_blank&quot;&gt;FAIRagro Search Hub&lt;/a&gt; nutzen.
+Um geeignete agrosystemspezifische Daten zur Nachnutzung zu finden, können Sie den &lt;a href=&quot;https://datasets.search-hub.fairagro.net/&quot; target=_blank&quot;&gt;FAIRagro Search Hub&lt;/a&gt; nutzen.
 
 Die Nachnutzung bestehender Daten reduziert den Erhebungsaufwand und ermöglicht eine ressourcenschonendere Forschung. Sie unterstützt die Einordnung eigener Ergebnisse im wissenschaftlichen Kontext und erhöht die statistische Aussagekraft.
 
@@ -2329,7 +2366,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<uri_path>horizon-europe/data_summary/provenance/provenance</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/provenance/content"/>
-		<is_collection>True</is_collection>
+		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">The history of origin (provenance) of the data and even, if relevant for research data management, the provenance of the physical objects on which the data is based can be entered in this text area. However, you can also use the text area to uniformly define the post-processing of the data as soon as such details have been determined. This can include, for example, aggregation steps, unit conversions and format conversions.</help>
 		<text lang="en">What is the provenance of the data?</text>
@@ -2595,14 +2632,14 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="en">When choosing a data format, one should consider the consequences for collaborative use, digital preservation and long-term storage as well as re-use. It is advisable to prefer formats that are standardised, open, non-proprietary and well-established in the respective scholarly community. Recommendations can be found in &lt;a href=&quot;https://www.howtofair.dk/how-to-fair/file-formats/&quot; target=&quot;_blank&quot;&gt;How to FAIR&lt;/a&gt;, for example.</help>
 		<text lang="en">Which data formats arise in your project?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">Format</verbose_name>
 		<help lang="de">Bei der Wahl des Datenformats sollten die Konsequenzen für die gemeinsame Nutzung, die digitale Archivierung und Langzeitspeicherung sowie die Wiederverwendung berücksichtigt werden. Es empfiehlt sich, möglichst standardisierte, nicht-proprietäre und allgemein bzw. in der spezifischen Community verbreitete Formate zu nutzen. Empfehlungen sind z. B. unter &lt;a href=&quot;https://www.forschungsdaten.info/themen/veroeffentlichen-und-archivieren/formate-erhalten/&quot; target=&quot;_blank&quot;&gt;forschungsdaten.info&lt;/a&gt; zu finden.</help>
 		<text lang="de">Welche Datenformate entstehen in Ihrem Projekt?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">Format</verbose_name>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>select</widget_type>
+		<widget_type>select_creatable</widget_type>
 		<value_type>option</value_type>
 		<maximum/>
 		<minimum/>
@@ -3648,7 +3685,8 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 What steps does the data go through? (e.g. field test → sampling → laboratory analysis → data preparation → evaluation)&lt;/li&gt;
 &lt;li&gt;Which analysis methods are used? (e.g. statistical evaluation in R/Python, image analysis of drone images, simulations and modelling).&lt;/li&gt;
 &lt;li&gt;How is the data cleansed and validated? (e.g. plausibility checks, range checks, removal of outliers).&lt;/li&gt;
-&lt;/ul&gt;</help>
+&lt;/ul&gt;
+To create reproducible workflows, you can use &lt;a href=&quot;https://github.com/fairagro/sciwin/&quot; target=_blank&quot;&gt;SciWIn&lt;/a&gt;.</help>
 		<text lang="en">In what way is the data processed in your project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
@@ -3657,7 +3695,8 @@ What steps does the data go through? (e.g. field test → sampling → laborator
 &lt;li&gt;Welche Schritte durchlaufen die Daten? (z. B. Feldversuch → Probenahme → Laboranalyse → Datenaufbereitung → Auswertung)&lt;/li&gt;
 &lt;li&gt;Welche Analyseverfahren kommen zum Einsatz? (z. B. statistische Auswertung in R/Python, Bildanalyse von Drohnenaufnahmen, Simulationen und Modellierungen).&lt;/li&gt;
 &lt;li&gt;Wie erfolgt die Datenbereinigung und -validierung? (z. B. Plausibilitätsprüfungen, Range-Checks, Entfernung von Ausreißern).&lt;/li&gt;
-&lt;/ul&gt;</help>
+&lt;/ul&gt;
+Zur Erstellung reproduzierbarer Workflows können Sie &lt;a href=&quot;https://github.com/fairagro/sciwin/&quot; target=_blank&quot;&gt;SciWIn&lt;/a&gt; nutzen.</help>
 		<text lang="de">Auf welche Weise werden die Daten in Ihrem Projekt weiterverarbeitet?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -3687,13 +3726,13 @@ What steps does the data go through? (e.g. field test → sampling → laborator
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/size/volume"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">&lt;i&gt;Please enter the size of the data sets or estimate the expected data volume. Please also state the unit of measurement.&lt;/i&gt;
+		<help lang="en">Please enter the size of the data sets or estimate the expected data volume. Please also state the unit of measurement.
 
 If large amounts of data are involved, financial resources for the provision of the infrastructure should be considered (see also page &quot;Responsibilities and Resources&quot;).</help>
 		<text lang="en">To what extent do these arise or what is the anticipated data volume?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">&lt;i&gt;Bitte geben Sie die Größe der Datensätze an oder schätzen Sie das zu erwartende Datenvolumen ab. Geben Sie bitte außerdem die Maßeinheit an.&lt;/i&gt;
+		<help lang="de">Bitte geben Sie die Größe der Datensätze an oder schätzen Sie das zu erwartende Datenvolumen ab. Geben Sie bitte außerdem die Maßeinheit an.
 
 Wenn große Datenmengen anfallen, sollten finanzielle Mittel zur Bereitstellung der Infrastruktur berücksichtigt werden (siehe auch die Seite „Verantwortlichkeiten und Ressourcen“).</help>
 		<text lang="de">Welches Datenvolumen ist für den Datensatz zu erwarten?</text>
@@ -3873,7 +3912,7 @@ Wenn große Datenmengen anfallen, sollten finanzielle Mittel zur Bereitstellung 
 
 We recommend using established standards, ontologies, controlled vocabularies, and metadata schemas for your data description. Whenever possible, align with subject-specific guidelines or the requirements of relevant repositories for data deposition after project completion.
 
-For more information on subject-specific metadata standards and ontologies, please refer to the &lt;a href=&quot;&quot; target=_blank&quot;&gt;FAIRagro Standard Inventory&lt;/a&gt; and the &lt;a href=&quot;https://knowledgebase. fairagro.net/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Practical Guide Metadata&lt;/a&gt; in the FAIRagro Knowledge Base.
+For more information on subject-specific metadata standards and ontologies, please refer to the &lt;a href=&quot;&quot; target=_blank&quot;&gt;FAIRagro Standard Inventory&lt;/a&gt; and the &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Practical Guide for metadata&lt;/a&gt; in the FAIRagro Knowledge Base.
 
 &lt;details&gt;
 &lt;summary style=&quot;cursor:pointer;&quot;&gt;Other option:&lt;/summary&gt;
@@ -3895,7 +3934,7 @@ If you use README files or additional spreadsheets to describe the data, describ
 
 Zur Beschreibung der Daten empfiehlt sich die Nutzung etablierter Standards, Ontologien, kontrollierter Vokabulare und Metadatenschemata. Orientieren Sie sich dabei möglichst an fachspezifischen Vorgaben oder den Anforderungen geeigneter Repositorien für die Datenübernahme nach Projektabschluss.
 
-Weitere Informationen zu fachspezifischen Metadatenstandards und Ontologien finden Sie im &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Standardinventar&lt;/a&gt;, das im Rahmen von FAIRagro entwickelt wurde und im &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Praxisleitfaden Metadaten&lt;/a&gt; in der FAIRagro Knowledge Base.
+Weitere Informationen zu fachspezifischen Metadatenstandards und Ontologien finden Sie im &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Standardinventar&lt;/a&gt;, das im Rahmen von FAIRagro entwickelt wurde, und im &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Praxisleitfaden Metadaten&lt;/a&gt; in der FAIRagro Knowledge Base.
 
 &lt;details&gt;
 &lt;summary style=&quot;cursor:pointer;&quot;&gt;Weitere Informationen zur Option Andere&lt;/summary&gt;
@@ -3944,14 +3983,14 @@ Falls Sie zum Beispiel README-Dateien oder zusätzliche Tabellenblätter zur Bes
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/ogc" order="2"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/mcpd" order="3"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/eppo_codes" order="4"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/crop_ontology" order="5"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/ppeo" order="6"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/plant_trait" order="7"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/datacite" order="5"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/dublin_core_terms" order="6"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/schema_org" order="7"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/sosa_ssn" order="8"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/agrovoc" order="9"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/dublin_core_terms" order="10"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/datacite" order="11"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/schema_org" order="12"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/crop_ontology" order="9"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/ppeo" order="10"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/plant_trait" order="11"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/agrovoc" order="12"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/metadata_uc3_other" order="13"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_uc6/metadata_repo" order="14"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/eln" order="15"/>
@@ -4024,91 +4063,7 @@ Falls Sie zum Beispiel README-Dateien oder zusätzliche Tabellenblätter zur Bes
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">EPPO codes</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/crop_ontology">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>crop_ontology</uri_path>
-		<dc:comment/>
-		<text lang="en">Crop ontology</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Crop ontology</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/ppeo">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>ppeo</uri_path>
-		<dc:comment/>
-		<text lang="en">PPEO ontology</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">PPEO ontology</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/plant_trait">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>plant_trait</uri_path>
-		<dc:comment/>
-		<text lang="en">Plant trait ontology</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Plant trait ontology</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/sosa_ssn">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>sosa_ssn</uri_path>
-		<dc:comment/>
-		<text lang="en">SOSA/SSN ontology</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">SOSA/SSN ontology</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/agrovoc">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>agrovoc</uri_path>
-		<dc:comment/>
-		<text lang="en">AGROVOC</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">AGROVOC</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/dublin_core_terms">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>metadata_agro/dublin_core_terms</uri_path>
-		<dc:comment/>
-		<text lang="en">Dublin Core Terms</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Dublin Core Terms</text>
+		<text lang="de">EPPO Codes</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -4128,6 +4083,20 @@ Falls Sie zum Beispiel README-Dateien oder zusätzliche Tabellenblätter zur Bes
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/dublin_core_terms">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>metadata_agro/dublin_core_terms</uri_path>
+		<dc:comment/>
+		<text lang="en">Dublin Core Terms</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Dublin Core Terms</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<option dc:uri="https://rdmo.fairagro.net/terms/options/metadata_agro/schema_org">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>metadata_agro/schema_org</uri_path>
@@ -4137,6 +4106,76 @@ Falls Sie zum Beispiel README-Dateien oder zusätzliche Tabellenblätter zur Bes
 		<default_text lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">Schema.org</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/sosa_ssn">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>sosa_ssn</uri_path>
+		<dc:comment/>
+		<text lang="en">SOSA/SSN ontology</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">SOSA/SSN Ontology</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/crop_ontology">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>crop_ontology</uri_path>
+		<dc:comment/>
+		<text lang="en">Crop ontology</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Crop Ontology</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/ppeo">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>ppeo</uri_path>
+		<dc:comment/>
+		<text lang="en">PPEO ontology</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">PPEO Ontology</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/plant_trait">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>plant_trait</uri_path>
+		<dc:comment/>
+		<text lang="en">Plant trait ontology</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Plant trait Ontology</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/agrovoc">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>agrovoc</uri_path>
+		<dc:comment/>
+		<text lang="en">AGROVOC</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">AGROVOC</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -4229,7 +4268,7 @@ The establishment of standards for methods, use of software, collection of resea
 		<verbose_name lang="en"/>
 		<help lang="de">Um Daten nachnutzen zu können, werden neben den Daten selbst auch die Software, ggf. (Mess-)Geräte etc. und das Wissen über spezielle Verfahren zur Nutzung benötigt.
 
-Ebenso wie bei den Formaten gilt hier: je standardisierter, offener und etablierter diese sind, desto einfacher ist i. d. R. eine Nachnutzung möglich.
+Ebenso wie bei den Formaten gilt hier: Je standardisierter, offener und etablierter diese sind, desto einfacher ist i. d. R. eine Nachnutzung möglich.
 
 Die Etablierung von Standards bei Methoden, bei der Anwendung von Software, der Erhebung von Forschungsdaten sowie der Beschreibung von Forschungsergebnissen bildet eine wesentliche Voraussetzung für die Vergleichbarkeit und Übertragbarkeit von Forschungsergebnissen.</help>
 		<text lang="de">Welche Software, Verfahren oder Technologien sind notwendig, um die Daten zu nutzen?</text>
@@ -4859,16 +4898,16 @@ Die Etablierung von Standards bei Methoden, bei der Anwendung von Software, der 
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Quality controls can be carried out in different ways. They can be heavily dependent on your discipline and your structures at the institute or in the project.
-It is important that the quality control is independent of the measures taken for quality assurance and refers to the product &quot;data&quot;.
+It is important that the quality control is independent of the measures taken for quality assurance and refers to the product 'data'.
 Quality quality controls can relate to the completeness of the data, data consistency or data integrity.
-Please refer to the &lt;a href=&quot;&quot; target=_blank&quot;&gt;quality toolbox&lt;/a&gt; developed as part of FAIRagro for common quality measures.</help>
+For additional information, you can check out the &lt;a href=&quot;&quot; target=_blank&quot;&gt;quality toolbox&lt;/a&gt;, &lt;a href=&quot;&quot; target=_blank&quot;&gt;data fitness for purpose&lt;/a&gt;, and the &lt;a href=&quot;https://dqkit.bonares.de/&quot; target=_blank&quot;&gt;DQ-Kit&lt;/a&gt;.</help>
 		<text lang="en">Are quality controls foreseen and if so, at what stage?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Qualitätskontrollen können auf unterschiedlichen Wegen erfolgen. Sie können stark abhängig von Ihrer Disziplin und Ihren Strukturen am Institut oder im Projekt sein.
 Wichtig ist, dass die Qualitätskontrolle unabhängig von den getroffenen Maßnahmen ist und sich auf das Produkt „Daten“ bezieht.
 Kontrollmaßnahmen können sich beispielsweise auf die Vollständigkeit der Daten, Datenkonsistenz oder Datenintegrität beziehen.
-Beachten Sie die im Rahmen von FAIRagro entwickelte &lt;a href=&quot;&quot; target=_blank&quot;&gt;Qualitäts-Toolbox&lt;/a&gt; für gängige Qualitätsmaßnahmen.</help>
+Für weitere Informationen zum Thema Datenqualität stehen die &lt;a href=&quot;&quot; target=_blank&quot;&gt;Qualitäts-Toolbox&lt;/a&gt;, &lt;a href=&quot;&quot; target=_blank&quot;&gt;Data Fitness for Purpose&lt;/a&gt; und das &lt;a href=&quot;https://dqkit.bonares.de/&quot; target=_blank&quot;&gt;DQ-Kit&lt;/a&gt; zur Verfügung.</help>
 		<text lang="de">Sind Qualitätskontrollen vorgesehen und wenn ja, in welchem Stadium?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5472,15 +5511,15 @@ Beachten Sie die im Rahmen von FAIRagro entwickelte &lt;a href=&quot;&quot; targ
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/storage/type"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Storage is relevant for data actively in use as well as finalized data. Please note that depending on the storage location, your data is not automatically backed up. You can find out advantages and disadvantages of storage media at &lt;i&gt;&lt;a href=&quot;https://www.forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/&quot; target=&quot;_blank&quot;&gt;www.forschungsdaten.info&lt;/a&gt;&lt;/i&gt;.
+		<help lang="en">Storage is relevant for data actively in use as well as finalized data. Please note that depending on the storage location, your data is not automatically backed up. You can find out advantages and disadvantages of storage media at &lt;a href=&quot;https://www.forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/&quot; target=&quot;_blank&quot;&gt;www.forschungsdaten.info&lt;/a&gt;.
 
 The DFG expects here a description of the infrastructure you use for data storage and backup. In particular, describe the use of storage and backup infrastructure offered centrally at your institution or justify your use of local or (subject)-specific solutions.</help>
 		<text lang="en">How is the data to be stored throughout the project duration?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Die Speicherung ist sowohl für aktiv genutzte als auch für finalisierte Daten relevant. Beachten Sie, dass je nach Speicherort Ihre Daten nicht automatisch gesichert sind. Welche Speichermedien welche Vor- und Nachteile haben, können Sie auf &lt;i&gt;&lt;a href=&quot;https://www.forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/&quot; target=&quot;_blank&quot;&gt;www.forschungsdaten.info&lt;/a&gt;&lt;/i&gt; nachlesen.
+		<help lang="de">Die Speicherung ist sowohl für aktiv genutzte als auch für finalisierte Daten relevant. Beachten Sie, dass je nach Speicherort Ihre Daten nicht automatisch gesichert sind. Welche Speichermedien welche Vor- und Nachteile haben, können Sie auf &lt;a href=&quot;https://www.forschungsdaten.info/themen/speichern-und-rechnen/datenspeicherung-und-die-lebensdauer-von-datentraegern/&quot; target=&quot;_blank&quot;&gt;www.forschungsdaten.info&lt;/a&gt; nachlesen.
 
-Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Sicherung verwendeten Infrastruktur. Gehen Sie insbesondere auf die Nutzung von zentral an Ihrer Einrichtung angebotener Speicher- und Backup- Infrastruktur ein oder begründen Sie Ihre lokalen oder (fach-)spezifischen Lösungen.</help>
+Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Sicherung verwendeten Infrastruktur. Gehen Sie insbesondere auf die Nutzung von zentral an Ihrer Einrichtung angebotener Speicher- und Backup-Infrastruktur ein oder begründen Sie Ihre lokalen oder (fach-)spezifischen Lösungen.</help>
 		<text lang="de">Auf welche Weise werden die Daten während der Projektlaufzeit gespeichert?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -5494,7 +5533,7 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<unit/>
 		<width/>
 		<optionsets>
-			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage"/>
+			<optionset dc:uri="https://rdmo.fairagro.net/terms/options/dfg_storage_options"/>
 		</optionsets>
 		<conditions/>
 	</question>
@@ -5512,21 +5551,21 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset"/>
 	</attribute>
-	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dfg_storage</uri_path>
+	<optionset dc:uri="https://rdmo.fairagro.net/terms/options/dfg_storage_options">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>dfg_storage_options</uri_path>
 		<dc:comment/>
 		<provider_key/>
 		<options>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_00" order="0"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_01" order="1"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_02" order="2"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/dfg_storage_options/dfg-st_02" order="2"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_03" order="3"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_04" order="4"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_05" order="5"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_06" order="6"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_07" order="7"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_08" order="8"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/dfg_storage_options/dfg-st_07" order="8"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_08" order="9"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -5558,9 +5597,9 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_02">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dfg_storage/dfg-st_02</uri_path>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/dfg_storage_options/dfg-st_02">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>dfg_storage_options/dfg-st_02</uri_path>
 		<dc:comment/>
 		<text lang="en">GitHub/GitLab</text>
 		<help lang="en"/>
@@ -5570,7 +5609,7 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input/>
+		<additional_input>text</additional_input>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_03">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -5628,11 +5667,11 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/dfg_storage/dfg-st_07">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dfg_storage/dfg-st_07</uri_path>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/dfg_storage_options/dfg-st_07">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>dfg_storage_options/dfg-st_07</uri_path>
 		<dc:comment/>
-		<text lang="en">external hard drives</text>
+		<text lang="en">External hard drives</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -5756,11 +5795,11 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<help lang="en">If, after completing the project phase, you decide to use an external data repository that uses DOIs as persistent identifiers (PIDs), it makes sense to take the DOI metadata requirements into account during the project phase. This will avoid having to make adjustments to the metadata later on and reduce the additional effort involved in preparing your research data for publication and archiving.</help>
 		<text lang="en">What system of persistent identifiers shall be used?</text>
 		<default_text lang="en"/>
-		<verbose_name lang="en"/>
+		<verbose_name lang="en">persistent identifier</verbose_name>
 		<help lang="de">Wenn Sie sich nach Abschluss des Projektabschnitts für ein externes Datenrepository entscheiden, das DOIs als Persistent Identifiers (PIDs) verwendet, ist es sinnvoll, die DOI-Metadatenanforderungen bereits während der Projektphase zu berücksichtigen. Dadurch lassen sich spätere Anpassungen der Metadaten vermeiden und zusätzlicher Aufwand bei der Vorbereitung Ihrer Forschungsdaten für Veröffentlichung und Archivierung wird reduziert.</help>
 		<text lang="de">Welches System von persistenten Identifikatoren soll genutzt werden?</text>
 		<default_text lang="de"/>
-		<verbose_name lang="de"/>
+		<verbose_name lang="de">persistenter Identifikator</verbose_name>
 		<default_option/>
 		<default_external_id/>
 		<widget_type>select</widget_type>
@@ -6108,7 +6147,7 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<text lang="en">How and how often will the data be backed up?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in denen mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
+		<help lang="de">Die Frage bezieht sich auf Backups während der Zeit, in der mit den Daten gearbeitet wird. Fragen der Langzeitarchivierung werden gesondert im entsprechenden Abschnitt behandelt.</help>
 		<text lang="de">Wie und wie oft werden Backups der Daten erstellt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -6332,7 +6371,7 @@ Wählen Sie alle zutreffenden Antworten aus und beschreiben Sie die Implementier
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>sensitive_measures/legal</uri_path>
 		<dc:comment/>
-		<text lang="en">Legal &amp; Organizational Safeguard</text>
+		<text lang="en">Legal &amp; Organizational Safeguards</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -6578,7 +6617,7 @@ Es ist wichtig zu entscheiden, ob die Daten für die Wiederverwendung zugelassen
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>textarea</additional_input>
+		<additional_input>text</additional_input>
 	</option>
 	<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_preservation_statement">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
@@ -6754,19 +6793,18 @@ Es ist wichtig zu entscheiden, ob die Daten für die Wiederverwendung zugelassen
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/data_publication_date"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Accordingly to the &lt;i&gt;&lt;a href=&quot;https://www.dfg.de/resource/blob/172098/guidelines-research-data.pdf&quot; target=&quot;_blank&quot;&gt;DFG Guidelines for Research Data Management&lt;/a &gt;&lt;/i&gt;, research data should be made available as soon as possible and ideally according to the &lt;i&gt;&lt;a href=&quot;https://force11.org/info/guiding-principles-for-findable-accessible-interoperable-and-re-usable-data-publishing-version-b1-0/&quot; target=&quot;_blank&quot;&gt;FAIR principles&lt;/a&gt;&lt;/i&gt;.
+		<help lang="en">Accordingly to the &lt;a href=&quot;https://www.dfg.de/resource/blob/172098/guidelines-research-data.pdf&quot; target=&quot;_blank&quot;&gt;DFG Guidelines for Research Data Management&lt;/a &gt;, research data should be made available as soon as possible and ideally according to the &lt;a href=&quot;https://force11.org/info/guiding-principles-for-findable-accessible-interoperable-and-re-usable-data-publishing-version-b1-0/&quot; target=&quot;_blank&quot;&gt;FAIR principles&lt;/a&gt;.
 
-The importance of data publication is underscored once again by the
-&lt;i&gt;&lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 of the Code of Good Scientific Practice&lt;/a &gt;&lt;/i&gt;. Discipline-specific practices are pointed out here.
+The importance of data publication is underscored once again by the &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 of the Code of Good Scientific Practice&lt;/a &gt;. Discipline-specific practices are pointed out here.
 
 Select the appropriate option and, if possible, specify the exact date in the form YYYY-MM-DD.</help>
 		<text lang="en">When is the research data available for use by third parties?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Den &lt;i&gt;&lt;a href=&quot;https://www.dfg.de/resource/blob/172112/leitlinien-forschungsdaten.pdf&quot; target=&quot;_blank&quot;&gt;DFG–Leitlinien zum Forschungsdatenmanagement&lt;/a&gt;&lt;/i&gt; entsprechend sollten Forschungsdaten wenn möglich zeitnah verfügbar gemacht werden und folgen dabei im besten Fall den &lt;i&gt;&lt;a href=&quot;https://force11.org/info/guiding-principles-for-findable-accessible-interoperable-and-re-usable-data-publishing-version-b1-0/&quot; target=&quot;_blank&quot;&gt;FAIR-Prinzipien&lt;/a&gt;&lt;/i&gt;.
+		<help lang="de">Den &lt;a href=&quot;https://www.dfg.de/resource/blob/172112/leitlinien-forschungsdaten.pdf&quot; target=&quot;_blank&quot;&gt;DFG–Leitlinien zum Forschungsdatenmanagement&lt;/a&gt; entsprechend sollten Forschungsdaten wenn möglich zeitnah verfügbar gemacht werden und folgen dabei im besten Fall den &lt;a href=&quot;https://force11.org/info/guiding-principles-for-findable-accessible-interoperable-and-re-usable-data-publishing-version-b1-0/&quot; target=&quot;_blank&quot;&gt;FAIR-Prinzipien&lt;/a&gt;.
 
 Die Bedeutung der Datenpublikation wird noch einmal unterstrichen durch die 
-&lt;i&gt;&lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-von-offentlichem-zugang-zu-forschungsergebnissen/&quot; target=&quot;_blank&quot;&gt;Leitlinie 13 des Kodex zur Guten Wissenschaftlichen Praxis&lt;/a&gt;&lt;/i&gt;. Hier wird auf die disziplinspezifischen Gepflogenheiten hingewiesen.
+&lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-von-offentlichem-zugang-zu-forschungsergebnissen/&quot; target=&quot;_blank&quot;&gt;Leitlinie 13 des Kodex zur Guten Wissenschaftlichen Praxis&lt;/a&gt;. Hier wird auf die disziplinspezifischen Gepflogenheiten hingewiesen.
 
 Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das genaue Datum in der Form YYYY-MM-DD.</help>
 		<text lang="de">Wann ist dieser Datensatz für Dritte nutzbar?</text>
@@ -6924,12 +6962,12 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Distribution/rdadmp_data_access" order="0"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/reusable_data/documentation" order="1"/>
-			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Distribution/rdadmp_license/rdadmp_license_ref" order="3"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/access_committee/access_committee" order="4"/>
-			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_personal_data" order="5"/>
-			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Host/Sharing_personnel_data" order="6"/>
-			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_sensitive_data" order="7"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/horizon-europe/fair_data/reusable_data/documentation" order="1"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Distribution/rdadmp_license/rdadmp_license_ref" order="2"/>
+			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/access_committee/access_committee" order="3"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_personal_data" order="4"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Host/Sharing_personnel_data" order="5"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_sensitive_data" order="6"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -7045,18 +7083,18 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/reusable_data/documentation">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+	<question dc:uri="https://rdmo.fairagro.net/terms/questions/horizon-europe/fair_data/reusable_data/documentation">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>horizon-europe/fair_data/reusable_data/documentation</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/documentation"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">In this field, enter the components of the data documentation that are available with the data set and are not only supplied on request in the context of good scientific practice later.</help>
+		<help lang="en">In this field, enter the components of the data documentation that are available with the data set and are not only supplied on request in the context of good scientific practice later. For additional information you can check out the &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/metadata_guide/&quot; target=&quot; _blank&quot;&gt;FAIRagro Practical Guide for metadata&lt;/a&gt;.</help>
 		<text lang="en">Which components of the data documentation are available together with the dataset?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Tragen Sie in dieses Feld die Bestandteile der Datendokumentation ein, die mit dem Datensatz zur Verfügung stehen und nicht nur später auf Anfrage geliefert werden.</help>
+		<help lang="de">Tragen Sie in dieses Feld die Bestandteile der Datendokumentation ein, die mit dem Datensatz zur Verfügung stehen und nicht nur später auf Anfrage geliefert werden. Für weitere Informationen rund um das Thema Datendokumentation steht Ihnen der &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/metadata_guide/&quot; target=&quot; _blank&quot;&gt;FAIRagro Metadaten Praxisleitfaden&lt;/a&gt; zur Verfügung.</help>
 		<text lang="de">Welche Komponenten der Datendokumentation stehen zusammen mit dem Datensatz zur Verfügung?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -7202,11 +7240,11 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/conditions"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Refer to the Creative Commons Licenses. Use the text field to specify licenses, including details like CC BY 4.0 International. For code refer to software licenses.</help>
+		<help lang="en">Refer to the &lt;a href=&quot;https://creativecommons.org/licenses/&quot; target=&quot;_blank&quot;&gt;Creative Commons Licenses&lt;/a&gt;. Use the text field to specify licenses, including details like CC BY 4.0 International. For code refer to software licenses, see &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/fair_code/&quot; target=&quot;_blank&quot;&gt;How to publish research code FAIR?&lt;/a&gt;.</help>
 		<text lang="en">Under which terms of use or license will the dataset be published or shared?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Siehe die Creative Commons-Lizenzen. Verwenden Sie das Textfeld, um Lizenzen anzugeben, einschließlich Details wie CC BY 4.0 International. Für Code nutzen Sie Software-Lizenzen.</help>
+		<help lang="de">Siehe die &lt;a href=&quot;https://creativecommons.org/licenses/&quot; target=&quot; _blank&quot;&gt;Creative Commons-Lizenzen&lt;/a&gt;. Verwenden Sie das Textfeld, um Lizenzen anzugeben, einschließlich Details wie CC BY 4.0 International. Für Code nutzen Sie Software-Lizenzen, mehr Informationen dazu finden sich unter &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/fair_code/&quot; target=&quot; _blank&quot;&gt;Wie veröffentliche ich Code FAIR?&lt;/a&gt;.</help>
 		<text lang="de">Unter welchen Nutzungs- oder Lizenzbedingungen wird der Datensatz veröffentlicht oder weitergegeben?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -7809,25 +7847,24 @@ Wenn Ihre Daten in die Kategorie personenbezogener Daten fallen, empfiehlt es si
 		<is_collection>True</is_collection>
 		<title lang="en">Archiving and Digital Preservation</title>
 		<short_title lang="en"/>
-		<help lang="en">Digital preservation (also called long-term preservation) facilitates accessibility, authenticity and reusability of data over a long timespan, especially beyond changes of technology, hardware, software and standards. In contrast to storage during the project, the timespan is not defined in years, it is understood as an indefinite time period during which technological and organisational changes will take place. It is  typically carried out by a responsible and trustworthy preservation service. Digital preservation aims for long-term access and reuse, including measures such as migration to current file formats, transfer of data between systems and between responsible organisations and usually follows best practices like CoreTrustSeal certification or nestor certification. 
+		<help lang="en">Digital preservation (also called long-term preservation) facilitates accessibility, authenticity, and reusability of data over a long timespan, especially beyond changes of technology, hardware, software, and standards. In contrast to storage during the project, the timespan is not defined in years; it is understood as an indefinite time period during which technological and organizational changes will take place. It is typically carried out by a responsible and trustworthy preservation service. Digital preservation aims for long-term access and reuse, including measures such as migration to current file formats, transfer of data between systems and between responsible organizations, and usually follows best practices like CoreTrustSeal certification or Nestor certification.
 
-
-Please select data for preservation, clarify where it should be preserved and specify which personnel transfers the data need to be ready tor a preservation service/data service/legal archive or similar. Take into account that a preservation service/archive may have its own sets of guidelines and regulations. The transfer may be conducted after a specified period during which data are simply stored. A publication service may also already include preservation or may transfer data to a preservation service/digital archive or similar automatically.</help>
+Please select the data you wish to preserve, clarify where it should be preserved, and indicate which staff members should transfer the data so that it is ready for a preservation service/data service/legal archive or similar. Take into account that a preservation service/archive may have its own set of guidelines and regulations. The transfer may be conducted after a specified period, during which data are simply stored. A publication service may also already include preservation, or may transfer data to a preservation service/digital archive or similar automatically.</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Archivierung und Erhaltung</title>
 		<short_title lang="de"/>
 		<help lang="de">Digitale Erhaltung (auch Langzeitarchivierung genannt) erleichtert den Zugang, die Authentizität und die Wiederverwendbarkeit von Daten über einen langen Zeitraum hinweg, insbesondere über Veränderungen in Technologie, Hardware, Software und Standards hinweg. Im Gegensatz zur Speicherung während des Projekts ist hier der Zeitraum zwar nicht in Jahren definiert, wird jedoch als unbegrenzter Zeitraum verstanden, in dem technologische und organisatorische Veränderungen stattfinden werden. Sie wird in der Regel von einem verantwortungsbewussten und vertrauenswürdigen Archivierungsdienst durchgeführt. Die digitale Archivierung zielt auf langfristigen Zugriff und Wiederverwendung ab, einschließlich Maßnahmen wie der Migration zu aktuellen Dateiformaten, der Übertragung von Daten zwischen Systemen und zwischen verantwortlichen Organisationen, und folgt in der Regel Best Practices wie der CoreTrustSeal-Zertifizierung oder der nestor-Zertifizierung. 
 
 
-Bitte wählen Sie die zu archivierenden Daten aus, klären Sie, wo sie archiviert werden sollen, und geben Sie an, welche Mitarbeiter für die Übertragung der Daten bereitstehen müssen, um einen Archivierungsdienst/Datendienst/rechtliches Archiv oder ähnliches zu nutzen. Beachten Sie, dass ein Archivierungsdienst/Archiv möglicherweise eigene Richtlinien und Vorschriften hat. Die Übertragung kann nach einer bestimmten Zeitspanne erfolgen, in der die Daten einfach gespeichert werden. Ein Veröffentlichungsdienst kann auch bereits die Archivierung umfassen oder Daten automatisch an einen Archivierungsdienst/ein digitales Archiv oder ähnliches übertragen.</help>
+Bitte wählen Sie die Daten aus, die Sie aufbewahren möchten, legen Sie fest, wo sie aufbewahrt werden sollen, und geben Sie an, welche Mitarbeiter die Daten übertragen sollen, damit sie für einen Aufbewahrungsdienst/Datendienst/ein Rechtsarchiv oder ähnliches bereitstehen. Beachten Sie, dass ein Archivierungsdienst/Archiv möglicherweise eigene Richtlinien und Vorschriften hat. Die Übertragung kann nach einer bestimmten Zeitspanne erfolgen, in der die Daten einfach gespeichert werden. Ein Veröffentlichungsdienst kann auch bereits die Archivierung umfassen oder Daten automatisch an einen Archivierungsdienst/ein digitales Archiv oder ähnliches übertragen.</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
 			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dfg/exchange_preservation/archiving/data_archiving" order="0"/>
 			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Distribution/rdadmp_description" order="1"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_repository/repository_arrangements" order="2"/>
-			<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_data/access_authentication" order="3"/>
-			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/Distribution/rdadmp_license/rdadmp_start_date" order="4"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/horizon-europe/fair_data/accessible_repository/repository_arrangements" order="2"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/horizon-europe/fair_data/accessible_data/access_authentication" order="4"/>
+			<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/Distribution/rdadmp_license/rdadmp_start_date" order="5"/>
 		</questions>
 		<conditions/>
 	</page>
@@ -7838,21 +7875,17 @@ Bitte wählen Sie die zu archivierenden Daten aus, klären Sie, wo sie archivier
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/preservation/archive/yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">In accordance with good scientific practice, research data must generally be stored for 10 years (see the &lt;i&gt;&lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/archiving/&quot; target=&quot; _blank&quot;&gt;Guideline 17&lt;/a&gt;&lt;/i&gt; of the Code of Good Scientific Practice).
+		<help lang="en">In accordance with good scientific practice, research data must generally be stored for 10 years (see the &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/archiving/&quot; target=&quot; _blank&quot;&gt;Guideline 17&lt;/a&gt; of the Code of Good Scientific Practice).
 
 In order for the data to remain available and findable, they must also be curated beyond the project. If you archive the data in a data center or repository, the responsibility is usually assumed by the operator. Please check or clarify the responsibilities in advance. Archiving includes metadata, documentation and any relevant code/software.
-Some repositories offer the option of restricting access to the data, so that the data can be found but is only accessible on request.
-
-The &lt;a href=&quot;https://repositories.search-hub.fairagro.net/&quot; target=_blank&quot;&gt;infrastructure search&lt;/a&gt; developed as part of FAIRagro can be used to search for a suitable infrastructure.</help>
+Some repositories offer the option of restricting access to the data, so that the data can be found but is only accessible on request.</help>
 		<text lang="en">Are you planning to preserve your data in a suitable infrastructure?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Entsprechend der Guten wissenschaftlichen Praxis müssen Forschungsdaten in der Regel für 10 Jahre aufbewahrt werden (vgl. Sie hierzu die &lt;i&gt;&lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/archivierung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 17&lt;/a&gt;&lt;/i&gt; des Kodex zur Guten Wissenschaftlichen Praxis).
+		<help lang="de">Entsprechend der Guten wissenschaftlichen Praxis müssen Forschungsdaten in der Regel für 10 Jahre aufbewahrt werden (vgl. Sie hierzu die &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/archivierung/&quot; target=&quot;_blank&quot;&gt;Leitlinie 17&lt;/a&gt; des Kodex zur Guten Wissenschaftlichen Praxis).
 
 Damit die Daten verfügbar und auffindbar bleiben, müssen diese auch über das Projekt hinaus gepflegt werden. Archivieren Sie die Daten in einem Datenzentrum oder -repositorium, wird die Verantwortung in der Regel von den Betreibenden übernommen. Bitte prüfen bzw. klären Sie vorab die Verantwortlichkeiten. Die Archivierung schließt Metadaten, Dokumentationen und ggf. relevanten Code / Software mit ein.
-Einige Repositorien bieten die Möglichkeit, den Zugang zu den Daten zu beschränken, so dass die Daten zwar auffindbar, aber nur auf Anfrage zugänglich sind.
-
-Für die Suche nach einer geeigneten Infrastruktur kann das &lt;a href=&quot;https://repositories.search-hub.fairagro.net/&quot; target=_blank&quot;&gt;Infrastrukur-Suche&lt;/a&gt; genutzt werden, das im Rahmen von FAIRagro entwickelt wurde.</help>
+Einige Repositorien bieten die Möglichkeit, den Zugang zu den Daten zu beschränken, so dass die Daten zwar auffindbar, aber nur auf Anfrage zugänglich sind.</help>
 		<text lang="de">Planen Sie die Erhaltung Ihrer Daten in einer geeigneten Infrastruktur?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -7932,7 +7965,7 @@ Für die Suche nach einer geeigneten Infrastruktur kann das &lt;a href=&quot;htt
 		<is_optional>False</is_optional>
 		<help lang="en">Data should be deposited with a service that at least provides backup and monitors integrity of the bitstream, with clear responsibility who maintains the backup and integrity functions. The service should also allow findability based on the metadata deposited alongside data (data themselves do not have to be openly accessible).
 
-Specify where and how your data will be stored. The repository should be as domain-specific as possible. If you are unsure where to find a suitable repository see &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/data_repositories/&quot; target=_blank&quot;&gt;Where to find a fitting repository?&lt;/a&gt; in the &lt;a href=&quot;https://knowledgebase.fairagro.net/en/&quot; target=_blank&quot;&gt;FAIRagro Knowledge Base&lt;/a&gt;.  Alternatively, &lt;a href=&quot;https://v2.sherpa.ac.uk/opendoar/&quot; target=_blank&quot;&gt;OpenDOAR&lt;/a&gt; offers a list of open access repositories, e.g., &lt;a href=&quot;https://zenodo.org/&quot; target=_blank&quot;&gt;Zenodo&lt;/a&gt;
+Specify where and how your data will be stored. The repository should be as domain-specific as possible. If you are unsure where to find a suitable repository see &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/data_repositories/&quot; target=_blank&quot;&gt;Where to find a fitting repository?&lt;/a&gt; in the &lt;a href=&quot;https://knowledgebase.fairagro.net/en/&quot; target=_blank&quot;&gt;FAIRagro Knowledge Base&lt;/a&gt;. To search for a suitable infrastructure, you can use the &lt;a href=&quot;https://repositories.search-hub.fairagro.net/&quot; target=_blank&quot;&gt;Repository Finder&lt;/a&gt;.  Alternatively, &lt;a href=&quot;https://v2.sherpa.ac.uk/opendoar/&quot; target=_blank&quot;&gt;OpenDOAR&lt;/a&gt; offers a list of open access repositories, e.g., &lt;a href=&quot;https://zenodo.org/&quot; target=_blank&quot;&gt;Zenodo&lt;/a&gt;
 
 &lt;details&gt;
 &lt;summary style=&quot;cursor:pointer;&quot;&gt;Domain-specific repositories&lt;/summary&gt;
@@ -7952,7 +7985,7 @@ Specify where and how your data will be stored. The repository should be as doma
 		<verbose_name lang="en"/>
 		<help lang="de">Daten sollten bei einem Dienst hinterlegt werden, der mindestens Backups bereitstellt und die Integrität des Bitstroms überwacht. Dabei sollte klar definiert sein, wer für Backup und Integrität zuständig ist. Der Dienst sollte zudem die Auffindbarkeit anhand der mit den Daten hinterlegten Metadaten ermöglichen (die Daten selbst müssen nicht öffentlich zugänglich sein).
 
-Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositorium sollte so fachspezifisch sein wie möglich. Informationen darüber, wo ein geeignetes Repositorium zu finden ist, finden sich in der &lt;a href=&quot;https://knowledgebase.fairagro.net/&quot; target=_blank&quot;&gt;FAIRagro Knowledge Base&lt;/a&gt; unter &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/data_repositories/&quot; target=_blank&quot;&gt;Wo finde ich ein passendes Repositorium?&lt;/a&gt;.  Falls Ihre Daten in kein fachspezifisches Repositorium passen, bietet &lt;a href=&quot;https://v2.sherpa.ac.uk/opendoar/&quot; target=_blank&quot;&gt;OpenDOAR&lt;/a&gt; eine Liste von Open-Access-Repositorien, z. B., &lt;a href=&quot;https://zenodo.org/&quot; target=_blank&quot;&gt;Zenodo&lt;/a&gt;
+Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositorium sollte so fachspezifisch sein wie möglich. Informationen darüber, wo ein geeignetes Repositorium zu finden ist, finden sich in der &lt;a href=&quot;https://knowledgebase.fairagro.net/&quot; target=_blank&quot;&gt;FAIRagro Knowledge Base&lt;/a&gt; unter &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/data_repositories/&quot; target=_blank&quot;&gt;Wo finde ich ein passendes Repositorium?&lt;/a&gt;.  Zur Suche nach einer geeigneten Infrastruktur können Sie auch den &lt;a href=&quot;https://repositories.search-hub.fairagro.net/&quot; target=_blank&quot;&gt;Repository Finder&lt;/a&gt; nutzen. Falls Ihre Daten in kein fachspezifisches Repositorium passen, bietet &lt;a href=&quot;https://v2.sherpa.ac.uk/opendoar/&quot; target=_blank&quot;&gt;OpenDOAR&lt;/a&gt; eine Liste von Open-Access-Repositorien, z. B., &lt;a href=&quot;https://zenodo.org/&quot; target=_blank&quot;&gt;Zenodo&lt;/a&gt;
 
 &lt;details&gt;
 &lt;summary style=&quot;cursor:pointer;&quot;&gt;Fachspezifische Repositorien&lt;/summary&gt;
@@ -7981,7 +8014,9 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<optionsets>
 			<optionset dc:uri="https://rdmo.fairagro.net/terms/options/archiving_infrastructure"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.fairagro.net/terms/conditions/data_is_preserved"/>
+		</conditions>
 	</question>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -7990,6 +8025,15 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<dc:comment/>
 		<parent dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation"/>
 	</attribute>
+	<condition dc:uri="https://rdmo.fairagro.net/terms/conditions/data_is_preserved">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>data_is_preserved</uri_path>
+		<dc:comment/>
+		<source dc:uri="https://rdmorganiser.github.io/terms/domain/project/preservation/archive/yesno"/>
+		<relation>eq</relation>
+		<target_text/>
+		<target_option dc:uri="http://example.com/terms/options/repository_yesno_yes"/>
+	</condition>
 	<optionset dc:uri="https://rdmo.fairagro.net/terms/options/archiving_infrastructure">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>archiving_infrastructure</uri_path>
@@ -8194,8 +8238,8 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_repository/repository_arrangements">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+	<question dc:uri="https://rdmo.fairagro.net/terms/questions/horizon-europe/fair_data/accessible_repository/repository_arrangements">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>horizon-europe/fair_data/accessible_repository/repository_arrangements</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository_arrangements"/>
@@ -8221,7 +8265,9 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<optionsets>
 			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/repository_arrangements_why"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.fairagro.net/terms/conditions/data_is_preserved"/>
+		</conditions>
 	</question>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/repository_arrangements">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -8329,8 +8375,8 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
-	<question dc:uri="https://rdmorganiser.github.io/terms/questions/horizon-europe/fair_data/accessible_data/access_authentication">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
+	<question dc:uri="https://rdmo.fairagro.net/terms/questions/horizon-europe/fair_data/accessible_data/access_authentication">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>horizon-europe/fair_data/accessible_data/access_authentication</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/access_authentication"/>
@@ -8356,7 +8402,9 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<optionsets>
 			<optionset dc:uri="https://rdmorganiser.github.io/terms/options/access_authentication"/>
 		</optionsets>
-		<conditions/>
+		<conditions>
+			<condition dc:uri="https://rdmo.fairagro.net/terms/conditions/data_is_preserved"/>
+		</conditions>
 	</question>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/access_authentication">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -8439,7 +8487,7 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<uri_path>dmp4nfdi/v1-0-0/Distribution/rdadmp_license/rdadmp_start_date</uri_path>
 		<dc:comment/>
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/preservation/embargo_period"/>
-		<is_collection>True</is_collection>
+		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">If yes, provide a clear justification for the embargo period and explain the rationale and expected benefits. Inquire about the mechanisms for monitoring and reviewing the embargo period to ensure its continued necessity.</help>
 		<text lang="en">Shall the data only be made accessible after an embargo period has expired?</text>
@@ -8508,15 +8556,13 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/sharing/restrictions_explanation"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Es gibt Gründe, die gegen eine (direkte) Veröffentlichung der Daten sprechen können. Diese können beispielsweise der Schutz personenbezogener Daten oder die kommerzielle oder industrielle Verwertung der Daten sein.
-
-Bedenken Sie bitte, dass ggf. nach einer gewissen Sperr- oder Embargofrist eine Publikation der Daten möglich ist und Sie diese Publikation auch jetzt schon vorbereiten können. Bei Fragen sprechen Sie dazu mit dem Forschungsdatenmanagement-Team Ihrer Einrichtung.</help>
+		<help lang="en">There may be reasons that argue against (direct) publication of the data. These may include, for example, the protection of personal data or the commercial or industrial exploitation of the data.
+Confidentiality in connection with security issues may also be a reason. Further information can also be found in &lt;a href=&quot;https://wissenschaftliche-integritaet.de/en/code-of-conduct/providing-public-access-to-research-results/&quot; target=&quot;_blank&quot;&gt;Guideline 13 of the Code of Good Scientific Practice&lt;/a&gt;.
+Please note that after a certain blocking or embargo period, publication of the data is possible and you can already prepare for this publication now.</help>
 		<text lang="en">Do you anticipate any implications or restrictions regarding subsequent publication or accessibility?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Es kann Gründe geben, die gegen eine (direkte) Veröffentlichung der Daten sprechen können. Dieses kann beispielsweise der Schutz personenbezogener Daten oder die kommerzielle oder industrielle Verwertung der Daten sein.&lt;/p&gt;
-&lt;p&gt;
- Auch kann die Vertraulichkeit im Zusammenhang mit Sicherheitsfragen ein Grund sein. Weitere Informationen können Sie außerdem der &lt;i&gt;&lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-von-offentlichem-zugang-zu-forschungsergebnissen/&quot; target=&quot;_blank&quot;&gt;Leitlinie 13 des Kodex zur Guten Wissenschaftlichen Praxis&lt;/a&gt; entnehmen.&lt;br/&gt;
+		<help lang="de">Es kann Gründe geben, die gegen eine (direkte) Veröffentlichung der Daten sprechen können. Dies kann beispielsweise der Schutz personenbezogener Daten oder die kommerzielle oder industrielle Verwertung der Daten sein. Auch kann die Vertraulichkeit im Zusammenhang mit Sicherheitsfragen ein Grund sein. Weitere Informationen können Sie außerdem der &lt;a href=&quot;https://wissenschaftliche-integritaet.de/kodex/herstellung-von-offentlichem-zugang-zu-forschungsergebnissen/&quot; target=&quot;_blank&quot;&gt;Leitlinie 13 des Kodex zur Guten Wissenschaftlichen Praxis&lt;/a&gt; entnehmen.&lt;br/&gt;
 Bedenken Sie bitte, dass nach einer gewissen Sperr- oder Embargofrist eine Publikation der Daten möglich ist und Sie diese Publikation auch jetzt schon vorbereiten können.</help>
 		<text lang="de">Sind Auswirkungen oder Einschränkungen in Bezug auf die spätere Veröffentlichung bzw. Zugänglichkeit zu erwarten?</text>
 		<default_text lang="de"/>
@@ -8634,12 +8680,14 @@ Bedenken Sie bitte, dass nach einer gewissen Sperr- oder Embargofrist eine Publi
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
 		<help lang="en">Aspects of use and copyright as well as questions of ownership must be taken into account on the one hand when you use data from others and on the other hand when you generate data. If you generate your own data, you should clarify which rights are relevant. If you generate data together with partners, you regulate who has what rights of disposal to the data. For later use, you should explain which legal rules apply and, if applicable, under which licenses you will make the data available (publication and sharing, long-term storage and/or digital preservation). &lt;br/&gt;
-Various rights can play a role in data. Whether your data are protected by copyright depends, among other things, on the degree of originality. Further information can be found in the &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Information Sheet on the Copyright Protection of Research Data&lt;/a&gt;, under &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Copyright and Licensing of Research Data&lt;/a&gt;, and for an easy introduction to the copyright topic, see &lt;a href=&quot;https://fairagro.net/en/copyright-as-the-final-boss/&quot; target=&quot;_blank&quot;&gt;Copyright as the final boss&lt;/a&gt;.</help>
+Various rights can play a role in data. Whether your data are protected by copyright depends, among other things, on the degree of originality. Information on this can be found, for example, in the &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Information Sheet on the Copyright Protection of Research Data&lt;/a&gt;, or &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Copyright and Licensing of Research Data&lt;/a&gt; (only available in German). &lt;br/&gt;
+For an introduction to copyright, see &lt;a href=&quot;https://fairagro.net/en/copyright-as-the-final-boss/&quot; target=&quot;_blank&quot;&gt;Copyright as the final boss (Singson, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt;, and for information on copyright exceptions and limitations, see  &lt;a href=&quot;https://fairagro.net/freie-fahrt-die-schranken-des-urheberrechts/&quot; target=&quot;_blank&quot;&gt;Freie Fahrt? Die Schranken des Urheberrechts (Bress, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt; (only available in German).</help>
 		<text lang="en">What is in place to consider aspects of use and copyright law as well as ownership issues?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Nutzungs- und urheberrechtliche Aspekte sowie Eigentumsfragen sind zum einen zu berücksichtigen, wenn Sie Daten Anderer nachnutzen, zum anderen, wenn Sie Daten erzeugen. Sofern Sie eigene Daten erzeugen, sollten Sie klären, welche Rechte einschlägig sind. Wenn Sie Daten gemeinsam mit Partnern erzeugen, regeln Sie, wer welche Verfügungsrechte an den Daten erhält. Für die spätere Nutzung sollten Sie darstellen, welche rechtlichen Regeln gelten und ggfs. unter welchen Lizenzen Sie die Daten zur Verfügung stellen werden (Veröffentlichung und Weitergabe, langfristige Speicherung und/oder Erhaltung). &lt;br/&gt;
-Bei Daten können verschiedene Rechte eine Rolle spielen. Ob Ihre Daten dem urheberrechtlichen Schutz unterliegen, hängt unter anderem von der Schöpfungshöhe ab. Informationen hierzu finden Sie z.B. in dem &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Merkblatt zum urheberrechtlichen Schutz von Forschungsdaten&lt;/a&gt;, unter &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Urheberrecht und Lizenzierung bei Forschungsdaten&lt;/a&gt; sowie für einen leichten Einstieg in das Thema unter &lt;a href=&quot;https://fairagro.net/endgegner-urheberrecht/&quot; target=&quot;_blank&quot;&gt;Endgegner Urheberrecht&lt;/a&gt;.</help>
+Bei Daten können verschiedene Rechte eine Rolle spielen. Ob Ihre Daten dem urheberrechtlichen Schutz unterliegen, hängt unter anderem von der Schöpfungshöhe ab. Informationen hierzu finden Sie z.B. in dem &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Merkblatt zum urheberrechtlichen Schutz von Forschungsdaten&lt;/a&gt; oder unter &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Urheberrecht und Lizenzierung bei Forschungsdaten&lt;/a&gt;. &lt;br&gt;
+Eine Einführung in das Thema Urheberrecht finden Sie unter &lt;a href=&quot;https://fairagro.net/endgegner-urheberrecht/&quot; target=&quot;_blank&quot;&gt;Endgegner Urheberrecht (Singson, FIZ Karlsruhe, FAIRagro, CC-BY 4.0) &lt;/a&gt;, Informationen zu Ausnahmen und Beschränkungen des Urheberrechts finden Sie unter  &lt;a href=&quot;https://fairagro.net/freie-fahrt-die-schranken-des-urheberrechts/&quot; target=&quot;_blank&quot;&gt;Freie Fahrt? Die Schranken des Urheberrechts (Bress, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt;.</help>
 		<text lang="de">Auf welche Weise werden nutzungs- und urheberrechtliche Aspekte sowie Eigentumsfragen berücksichtigt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
