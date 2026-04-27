@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-03-05T06:44:11.169881+01:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-27T15:05:21.544134+02:00" required="2.1.0" version="2.4.0">
 	<catalog dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>dmp4nfdi/v1-0-0</uri_path>
 		<dc:comment>Version 1.0.0</dc:comment>
 		<order>0</order>
 		<title lang="en">NFDI DMP Template 4 FAIRagro</title>
-		<help lang="en"/>
+		<help lang="en">This questionnaire was developed in collaboration with DMP4NFDI, and aligns with their Template Framework. It is tailored to the agrosystem domain, and integrates links to FAIRagro services to support structured and sustainable data management.</help>
 		<title lang="de">NFDI DMP Template 4 FAIRagro</title>
-		<help lang="de"/>
+		<help lang="de">Dieses DMP-Template wurde in Zusammenarbeit mit DMP4NFDI entwickelt und basiert auf deren Template-Framework. Es wurde speziell für Agrosystem-Projekte angepasst und integriert Links zu FAIRagro-Diensten, die ein strukturiertes und nachhaltiges Datenmanagement unterstützen.</help>
 		<sections>
 			<section dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP_Project" order="0"/>
 			<section dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/Dataset" order="1"/>
@@ -660,11 +660,13 @@
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Examples include: does the legal situation in different countries have to be taken into account? Does every employee have the same access rights? Is there personal data, possibly even with special protection requirements? Are there contractual regulations for data transfer, for example in the case of industrial data? Are there third parties who have (copyright) rights to the data? Is the data subject to export control regulations? Take into account that long-term access and reuse including migration to current file formats, transfer of data between systems and between responsible organisations needs rights for copying (in context of copyright), clearly defined access rights and reuse rights which must be applicable far into the future.</help>
-		<text lang="en">What are the legal specifics associated with the handling of research data in your project?</text>
+		<help lang="en">Examples include: does the legal situation in different countries have to be taken into account? Does every employee have the same access rights? Is there personal data, possibly even especially sensitive Data acc. To Art. 9 Para. 1 GDPR? Are there contractual regulations for data transfer, for example in the case of industrial data? Are there third parties who have (copyright) rights to the data? Is the data subject to export control regulations? Take into account that long-term access and reuse including migration to current file formats, transfer of data between systems and between responsible organisations needs rights for copying (in context of copyright), clearly defined access rights and reuse rights which must be applicable far into the future.&lt;br&gt;
+If non-human genetic resources from other countries are to be used, this may require authorization from the respective country in accordance with the provisions of the &lt;a href=&quot;https://www.cbd.int/&quot; target=&quot;_blank&quot;&gt; Convention on Biological Diversity (CBD)&lt;/a&gt;, the &lt;a href=&quot;https://nagoyaprotocol-hub.de/&quot; target=&quot;_blank&quot;&gt;Nagoya Protocol&lt;/a&gt;, or the &lt;a href=&quot;https://www.fao.org/plant-treaty/en&quot; target=&quot;_blank&quot;&gt;Plant Treaty&lt;/a&gt;.</help>
+		<text lang="en">What are the specific legal considerations regarding the handling of research data in your project?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Zu nennen wäre beispielsweise: Muss die rechtliche Situation verschiedener Länder beachtet werden? Hat jeder Mitarbeiter die gleichen Zugriffsrechte? Gibt es personenbezogene Daten, evtl. sogar mit besonderem Schutzbedarf? Gibt es vertragliche Regelungen zur Datenüberlassung, etwa im Falle von Industriedaten? Gibt es Dritte, die (Urheber-)Rechte an den Daten haben? Unterliegen Daten Vorschriften zur Exportkontrolle? Beachten Sie, dass für den langfristigen Zugang und die Wiederverwendung, einschließlich der Migration zu aktuellen Dateiformaten, der Übertragung von Daten zwischen Systemen und zwischen zuständigen Organisationen, Rechte zum Kopieren (im Zusammenhang mit dem Urheberrecht), klar definierte Zugangsrechte und Wiederverwendungsrechte erforderlich sind, die auch in ferner Zukunft gelten müssen.</help>
+		<help lang="de">Zu nennen wäre beispielsweise: Muss die Rechtslage verschiedener Länder beachtet werden? Hat jeder Mitarbeiter die gleichen Zugriffsrechte? Gibt es personenbezogene Daten, evtl. sogar besonders sensible personenbezogene Daten gemäß Art. 9 Abs. 1 DSGVO? Gibt es vertragliche Regelungen zur Datenüberlassung, etwa im Falle von Industriedaten? Gibt es Dritte, die (Urheber-)Rechte an den Daten haben? Unterliegen Daten Vorschriften zur Exportkontrolle? Beachten Sie, dass für den langfristigen Zugang und die Wiederverwendung, einschließlich der Migration zu aktuellen Dateiformaten, der Übertragung von Daten zwischen Systemen und zwischen zuständigen Organisationen, Rechte zum Kopieren (im Zusammenhang mit dem Urheberrecht), klar definierte Zugangsrechte und Wiederverwendungsrechte erforderlich sind, die auch in ferner Zukunft gelten müssen. &lt;br&gt;
+Sollen nichtmenschliche genetische Ressourcen anderer Länder genutzt werden, kann dies die Genehmigung des jeweiligen Landes nach den Vorschriften der &lt;a href=&quot;https://www.bfn.de/abkommen-richtlinie/uebereinkommen-ueber-die-biologische-vielfalt-cbd&quot; target=&quot;_blank&quot;&gt;Convention on Biological Diversity (CBD)&lt;/a&gt;, dem &lt;a href=&quot;https://nagoyaprotocol-hub.de/?lang=de&quot; target=&quot;_blank&quot;&gt;Nagoya-Protokoll&lt;/a&gt; oder dem &lt;a href=&quot;https://www.fao.org/plant-treaty/en&quot; target=&quot;_blank&quot;&gt;Plant-Treaty &lt;/a&gt; voraussetzen.</help>
 		<text lang="de">Welche rechtlichen Besonderheiten bestehen im Zusammenhang mit dem Umgang mit Forschungsdaten in Ihrem Projekt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -687,11 +689,12 @@
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">List standards, guidelines, or specifications that are relevant to your discipline, your research, and your institution. In agricultural research, these could include data management requirements, the FAIR principles, subject-specific metadata standards such as MIAPPE, institutional guidelines on open access, data sharing, and research integrity, such as the &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=“_blank”&gt;DFG guidelines on handling research data in biodiversity research&lt;/a&gt;.</help>
+		<help lang="en">List standards, guidelines, or specifications that are relevant to your discipline, your research, and your institution. In agricultural research, these could include data management requirements, the FAIR principles, subject-specific metadata standards such as MIAPPE, institutional guidelines on open access, data sharing, and research integrity, such as the &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=“_blank”&gt;DFG guidelines on handling research data in biodiversity research&lt;/a&gt;. Please also take into account the &lt;a href=&quot;https://zenodo.org/records/14281892#&quot; target=&quot;_blank&quot;&gt;Guidelines for Safeguarding
+Good Research Practice&lt;/a&gt;, which is often a legal requirement for research projects in Germany.</help>
 		<text lang="en">Are there any significant research codes or professional standards to be taken into account?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nennen Sie hier Standards, Leitlinien oder Vorgaben, die für Ihre Disziplin, Ihre Forschung und Ihre Einrichtung relevant sind. In der Agrarforschung können dies z. B. Vorgaben zum Datenmanagement, die FAIR-Prinzipien, fachspezifische Metadatenstandards wie MIAPPE, institutionelle Richtlinien zu Open Access, Datenweitergabe und Forschungsintegrität sowie die &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=&quot;_blank&quot;&gt;DFG-Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; sein.</help>
+		<help lang="de">Nennen Sie hier Standards, Leitlinien oder Vorgaben, die für Ihre Disziplin, Ihre Forschung und Ihre Einrichtung relevant sind. In der Agrarforschung können dies z. B. Vorgaben zum Datenmanagement, die FAIR-Prinzipien, fachspezifische Metadatenstandards wie MIAPPE, institutionelle Richtlinien zu Open Access, Datenweitergabe und Forschungsintegrität sowie die &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=&quot;_blank&quot;&gt;DFG-Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; sein. Beachten Sie dabei außerdem die &lt;a href=&quot;https://zenodo.org/records/14281892#&quot; target=&quot;_blank&quot;&gt;Gute Wissenschaftliche Praxis&lt;/a&gt;, die für deutsche Forschungsprojekte häufig rechtlich verpflichtend ist.</help>
 		<text lang="de">Existieren wichtige wissenschaftliche Kodizes bzw. fachliche Normen, die Berücksichtigung finden sollten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -784,37 +787,79 @@
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr/yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">In Germany, copyright law protects works of literature, science, and art that must meet a “creative threshold” (§ 2 UrhG). Raw data alone is generally not protected, but creative selection, arrangement, or processing of data may be.&lt;br&gt;
-Database Protection (§§ 87a–87e UrhG) safeguards substantial investment in collecting or organizing data, even without creative input.&lt;br&gt;
+		<help lang="en">In Germany, the Copyright Act covers the protection of works as well as the protection of related rights. Under § 2 UrhG, copyright protection is granted to personal intellectual creations in the fields of literature, science, and art that meet the threshold of originality. Raw data alone is generally not protected, but creative selection, arrangement, or processing of data may be.
 
-Photographs (§ 72 UrhG) may be protected even without full creativity, as long as they show an original image and involve a minimum level of skill; protection is assessed case by case.
-Trade Secret Law (§§ 1 ff. GeschGehG) protects information that is secret, economically valuable, and subject to confidentiality measures.&lt;br&gt;
 For detailed guidance, see &lt;a href=&quot;https://knowledgebase.fairagro.net/en/legal/rights&quot; target=&quot;_blank&quot;&gt;What rights exist in terms of data? (Bress, FIZ Karlsruhe, FAIRagro)&lt;/a&gt;, licensed under CC-BY 4.0, or contact the &lt;a href=&quot;https://fairagro.net/en/helpdesk/&quot; target=&quot;_blank&quot;&gt;FAIRagro Helpdesk&lt;/a&gt;.&lt;br&gt;
-Relevant property rights with regard to agriculture include:
+Other relevant intellectual property rights with regard to agriculture include:
 
 - &lt;a href=&quot;https://food.ec.europa.eu/plants/plant-variety-property-rights_en &quot; target=&quot;_blank&quot;&gt;Plant Variety Protection&lt;/a&gt; for new plant breeds
 - &lt;a href=&quot;https://www.dpma.de/english/patents/patent_protection/index.html&quot; target=&quot;_blank&quot;&gt;Patents&lt;/a&gt; &amp; &lt;a href=&quot;https://www.dpma.de/english/utility_models/index.html&quot; target=&quot;_blank&quot;&gt;Utility Models&lt;/a&gt;, e.g., for technical inventions in agricultural technologies
 - &lt;a href=&quot;https://www.dpma.de/english/trade_marks/index.html&quot; target=&quot;_blank&quot;&gt;Trademarks&lt;/a&gt;, e.g., to protect brand names of seeds, fertilizers, pesticides, etc.
 - &lt;a href=&quot;https://www.dpma.de/english/trade_marks/indications_of_geographical_origin/index.html&quot; target=&quot;_blank&quot;&gt;Geographical Indications of Origin&lt;/a&gt; for products linked to a specific region, e.g., “Champagne”
 
-Other relevant industrial property rights may include semiconductor protection, registered designs, or business names.</help>
-		<text lang="en">Does the project use and/or produce data that is protected by intellectual or industrial property rights?</text>
+Other relevant industrial property rights may include semiconductor protection, registered designs, or business names.
+  
+&lt;details&gt;
+&lt;summary style=&quot;cursor:pointer;&quot;&gt;Inside the Copyright Act:&lt;/summary&gt;
+&lt;p&gt;Database Protection:&lt;br&gt;
+Database Protection (§§ 87a–87e UrhG) safeguards substantial investment in collecting or organizing data, even without creative input.&lt;/p&gt;
+
+&lt;p&gt;Photographs: &lt;br&gt;
+Photographs (§ 72 UrhG) can also be protected by copyright without a high level of creative achievement, provided they show an independent image motif and demonstrate a minimum level of personal achievement or skill. Whether protection exists is assessed on a case-by-case basis.&lt;/p&gt;
+&lt;/details&gt;
+&lt;details&gt;
+&lt;summary style=&quot;cursor:pointer;&quot;&gt;Other Intellectual Property Rights:&lt;/summary&gt;
+&lt;p&gt;Trade Secret Law:&lt;br&gt;
+Trade Secret Law (§§ 1 ff. GeschGehG) protects information that is secret, economically valuable, and subject to confidentiality measures against unlawful disclosure.&lt;/p&gt;
+
+&lt;p&gt;Patent law:&lt;br&gt;
+Patent law (PatG) protects technical inventions that are new, inventive, and industrially applicable.&lt;/p&gt;
+
+&lt;p&gt;Trademark law:&lt;br&gt;
+Trademark law (MarkenG) protects signs that distinguish a company’s goods or services from others, including names, logos, slogans, or color schemes.&lt;/p&gt;
+
+&lt;p&gt;Design law:&lt;br&gt;
+ Design law (DesignG) protects the appearance of products, including lines, contours, colors, shape, or surface structure, if they are new and have individual character.&lt;/p&gt;
+&lt;/details&gt;</help>
+		<text lang="en">Does the project use and/or produce data that is protected by copyright, intellectual or industrial property rights, or trade secrets?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">In Deutschland schützt das Urheberrecht gemäß § 2 UrhG Werke der Literatur, Wissenschaft und Kunst, die eine sogenannte „Schöpfungshöhe“ erreichen. Rohdaten sind in der Regel nicht geschützt, doch eine kreative Auswahl, Anordnung, Kuratierung oder Verarbeitung von Daten kann urheberrechtlichen Schutz begründen.&lt;br&gt;
-Der Datenbankschutz (§§ 87a–87e UrhG) schützt hingegen eine wesentliche Investition in die Sammlung oder Organisation von Daten, auch ohne dass ein schöpferischer Beitrag vorliegt.&lt;br&gt;
-Auch Fotografien können ohne hohe kreative Leistung urheberrechtlich geschützt sein, sofern sie ein eigenständiges Bildmotiv zeigen und ein Mindestmaß an persönlicher Leistung oder Geschicklichkeit aufweisen. Ob ein Schutz besteht, wird jeweils im Einzelfall beurteilt.&lt;br&gt;
-Das Geschäftsgeheimnisgesetz (§§ 1 ff. GeschGehG) schützt Informationen, die geheim, wirtschaftlich wertvoll und durch angemessene Vertraulichkeitsmaßnahmen gesichert sind. &lt;br&gt;
+		<help lang="de">In Deutschland beinhaltet das Urheberrechtsgesetz den Werkschutz sowie den Schutz verwandter Leistungsrechte.  Werkschutz erhalten gemäß § 2 UrhG persönliche geistige Schöpfungen der Literatur, Wissenschaft und Kunst, die eine sogenannte „Schöpfungshöhe“ erreichen. Rohdaten sind in der Regel nicht geschützt, doch eine kreative Auswahl, Anordnung, Kuratierung oder Verarbeitung von Daten kann urheberrechtlichen Schutz begründen.
+
 Ausführliche Informationen finden Sie unter &lt;a href=&quot;https://knowledgebase.fairagro.net/legal/rights/&quot; target=&quot;_blank&quot;&gt;Welche Rechte bestehen an Daten? (Bress, FIZ Karlsruhe, FAIRagro)&lt;/a&gt;, lizenziert unter CC-BY 4.0, oder wenden Sie sich an den &lt;a href=&quot;https://fairagro.net/helpdesk/&quot; target=&quot;_blank&quot;&gt;FAIRagro-Helpdesk&lt;/a&gt;.&lt;br&gt;
-Relevante Schutzrechte im Bereich der Landwirtschaft sind unter anderem:
+Relevante Immaterialgüterrechte im Bereich der Landwirtschaft sind unter anderem:
 
 - &lt;a href=&quot;https://www.bundessortenamt.de/bsa/sorten/sortenschutz&quot; target=&quot;_blank&quot;&gt;Sortenschutz&lt;/a&gt; für neue Pflanzenzüchtungen
 - &lt;a href=&quot;https://www.dpma.de/patente/&quot; target=&quot;_blank&quot;&gt;Patente&lt;/a&gt; und &lt;a href=&quot;https://www.dpma.de/gebrauchsmuster/&quot; target=&quot;_blank&quot;&gt;Gebrauchsmuster&lt;/a&gt;, z. B. für technische Erfindungen in der Agrartechnologie
 - &lt;a href=&quot;https://www.dpma.de/marken/&quot; target=&quot;_blank&quot;&gt;Marken&lt;/a&gt;, z. B. zum Schutz von Markennamen für Saatgut, Düngemittel, Pflanzenschutzmittel usw.
 - &lt;a href=&quot;https://www.dpma.de/marken/geografische_herkunftsangaben/index.html&quot; target=&quot;_blank&quot;&gt;Geografische Herkunftsangaben&lt;/a&gt; zum Schutz landwirtschaftlicher Erzeugnisse, die mit einer bestimmten Region verbunden sind, z. B. „Champagner“
 
-Weitere einschlägige gewerbliche Schutzrechte können den Halbleiterschutz, eingetragene Designs oder Geschäftsbezeichnungen umfassen.</help>
-		<text lang="de">Werden Daten genutzt und/oder erstellt, die durch Urheber- oder verwandte Schutzrechte geschützt sind?</text>
+Weitere einschlägige gewerbliche Schutzrechte können den Halbleiterschutz, eingetragene Designs oder Geschäftsbezeichnungen umfassen.
+
+&lt;details&gt;
+&lt;summary style=&quot;cursor:pointer;&quot;&gt;Im Urheberrechtsgesetz:&lt;/summary&gt;
+&lt;p&gt;Datenbankschutz:&lt;br&gt;
+Der Datenbankschutz (§§ 87a–87e UrhG) schützt eine wesentliche Investition in die Sammlung oder Organisation von Daten, auch ohne dass ein schöpferischer Beitrag vorliegt.&lt;/p&gt;
+
+&lt;p&gt;Schutz von Lichtbildern:&lt;br&gt;
+Auch Fotografien können ohne hohe kreative Leistung urheberrechtlich geschützt sein, sofern sie ein eigenständiges Bildmotiv zeigen und ein Mindestmaß an persönlicher Leistung oder Geschicklichkeit aufweisen. Ob ein Schutz besteht, wird jeweils im Einzelfall beurteilt.&lt;/p&gt;
+&lt;/details&gt;
+
+&lt;details&gt;
+&lt;summary style=&quot;cursor:pointer;&quot;&gt;Andere geistige Eigentumsrechte:&lt;/summary&gt;
+&lt;p&gt;Geschäftsgeheimnisgesetz:&lt;br&gt;
+Das Geschäftsgeheimnisgesetz (§§ 1 ff. GeschGehG) schützt Informationen, die geheim, wirtschaftlich wertvoll und durch angemessene Vertraulichkeitsmaßnahmen gesichert sind vor unrechtmäßiger Offenlegung.&lt;/p&gt;
+
+&lt;p&gt;Patentrecht:&lt;br&gt;
+Das Patentrecht (PatG) schützt technische Erfindungen, die neu, erfinderisch und gewerblich anwendbar sind.&lt;/p&gt;
+
+&lt;p&gt;Markenrecht:&lt;br&gt;
+Das Markenrecht (MarkenG) schützt Zeichen, die die Waren oder Dienstleistungen eines Unternehmens von denen anderer unterscheiden, z. B. Namen, Logos, Slogans oder Farbkombinationen.&lt;/p&gt;
+
+&lt;p&gt;Designrecht:&lt;br&gt;
+Das Designrecht (DesignG) schützt die Erscheinungsform eines Produkts, einschließlich Linien, Konturen, Farben, Form oder Oberflächenstruktur, sofern sie neu ist und Eigenart besitzt.&lt;/p&gt;
+&lt;/details&gt;</help>
+		<text lang="de">Werden Daten genutzt und/oder erstellt, die durch Urheber-, verwandte Schutzrechte oder Geschäftsgeheimnisse geschützt sind?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
 		<default_option/>
@@ -1808,7 +1853,9 @@ The formation of data sets can be based, for example, on:
 - Collection or generation methods
 - Data types or formats
 - Work packages
-- Legal, ethical, or organizational requirements</help>
+- Legal, ethical, or organizational requirements
+
+&lt;p&gt;&lt;font color=&quot;red&quot;&gt;Please complete the following questions for each data category. Please create at least one set.&lt;/font&gt;&lt;/p&gt;</help>
 		<verbose_name lang="en"/>
 		<title lang="de">Projektdatenbeschreibung</title>
 		<short_title lang="de"/>
@@ -1819,7 +1866,9 @@ Die Bildung von Datensätzen kann sich beispielsweise orientieren an:
 - Erhebungs- oder Generierungsmethoden
 - Datentypen oder Formaten
 - Arbeitspaketen 
-- Rechtliche, ethische oder organisatorische Anforderungen</help>
+- Rechtliche, ethische oder organisatorische Anforderungen
+
+&lt;p&gt;&lt;font color=&quot;red&quot;&gt;Bitte füllen Sie die folgenden Fragen für jede Datenkategorie aus. Bitte legen Sie mindestens ein Set an.&lt;/font&gt;&lt;/p&gt;</help>
 		<verbose_name lang="de"/>
 		<questionsets/>
 		<questions>
@@ -1932,7 +1981,6 @@ Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht 
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/insitu" order="3"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/exp_climate_chamber" order="4"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/greenhouse" order="5"/>
-			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/phenosphere" order="6"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/lab" order="7"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/remote_sensing" order="8"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/abundance" order="9"/>
@@ -2031,20 +2079,6 @@ Bei reproduzierbaren Daten kommt ein weiterer Aspekt hinzu. Diese müssen nicht 
 		<default_text lang="en"/>
 		<view_text lang="en"/>
 		<text lang="de">Experimente im Gewächshaus</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmo.fairagro.net/terms/options/data_creation/phenosphere">
-		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
-		<uri_path>data_creation/phenosphere</uri_path>
-		<dc:comment/>
-		<text lang="en">Experiments in the PhenoSphere</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Experimente in der PhänoSphäre</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -3912,7 +3946,7 @@ Wenn große Datenmengen anfallen, sollten finanzielle Mittel zur Bereitstellung 
 
 We recommend using established standards, ontologies, controlled vocabularies, and metadata schemas for your data description. Whenever possible, align with subject-specific guidelines or the requirements of relevant repositories for data deposition after project completion.
 
-For more information on subject-specific metadata standards and ontologies, please refer to the &lt;a href=&quot;&quot; target=_blank&quot;&gt;FAIRagro Standard Inventory&lt;/a&gt; and the &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Practical Guide for metadata&lt;/a&gt; in the FAIRagro Knowledge Base.
+For more information on subject-specific metadata standards and ontologies, please refer to the &lt;a href=&quot;https://knowledgebase.fairagro.net/en/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Practical Guide for metadata&lt;/a&gt; in the FAIRagro Knowledge Base.
 
 &lt;details&gt;
 &lt;summary style=&quot;cursor:pointer;&quot;&gt;Other option:&lt;/summary&gt;
@@ -3934,7 +3968,7 @@ If you use README files or additional spreadsheets to describe the data, describ
 
 Zur Beschreibung der Daten empfiehlt sich die Nutzung etablierter Standards, Ontologien, kontrollierter Vokabulare und Metadatenschemata. Orientieren Sie sich dabei möglichst an fachspezifischen Vorgaben oder den Anforderungen geeigneter Repositorien für die Datenübernahme nach Projektabschluss.
 
-Weitere Informationen zu fachspezifischen Metadatenstandards und Ontologien finden Sie im &lt;a href=&quot;&quot; target=&quot;_blank&quot;&gt;Standardinventar&lt;/a&gt;, das im Rahmen von FAIRagro entwickelt wurde, und im &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Praxisleitfaden Metadaten&lt;/a&gt; in der FAIRagro Knowledge Base.
+Weitere Informationen zu fachspezifischen Metadatenstandards und Ontologien finden Sie im &lt;a href=&quot;https://knowledgebase.fairagro.net/rdm/metadata_guide/&quot; target=&quot;_blank&quot;&gt;Praxisleitfaden Metadaten&lt;/a&gt; in der FAIRagro Knowledge Base.
 
 &lt;details&gt;
 &lt;summary style=&quot;cursor:pointer;&quot;&gt;Weitere Informationen zur Option Andere&lt;/summary&gt;
@@ -4900,14 +4934,14 @@ Die Etablierung von Standards bei Methoden, bei der Anwendung von Software, der 
 		<help lang="en">Quality controls can be carried out in different ways. They can be heavily dependent on your discipline and your structures at the institute or in the project.
 It is important that the quality control is independent of the measures taken for quality assurance and refers to the product 'data'.
 Quality quality controls can relate to the completeness of the data, data consistency or data integrity.
-For additional information, you can check out the &lt;a href=&quot;&quot; target=_blank&quot;&gt;quality toolbox&lt;/a&gt;, &lt;a href=&quot;&quot; target=_blank&quot;&gt;data fitness for purpose&lt;/a&gt;, and the &lt;a href=&quot;https://dqkit.bonares.de/&quot; target=_blank&quot;&gt;DQ-Kit&lt;/a&gt;.</help>
+For more information on data quality and a suite of standalone tools for specific needs, explore &lt;a href=&quot;https://fairagro.net/en/services/data-quality-services/&quot; target=_blank&quot;&gt;FAIRagro's Data Quality Services&lt;/a&gt;.</help>
 		<text lang="en">Are quality controls foreseen and if so, at what stage?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Qualitätskontrollen können auf unterschiedlichen Wegen erfolgen. Sie können stark abhängig von Ihrer Disziplin und Ihren Strukturen am Institut oder im Projekt sein.
 Wichtig ist, dass die Qualitätskontrolle unabhängig von den getroffenen Maßnahmen ist und sich auf das Produkt „Daten“ bezieht.
 Kontrollmaßnahmen können sich beispielsweise auf die Vollständigkeit der Daten, Datenkonsistenz oder Datenintegrität beziehen.
-Für weitere Informationen zum Thema Datenqualität stehen die &lt;a href=&quot;&quot; target=_blank&quot;&gt;Qualitäts-Toolbox&lt;/a&gt;, &lt;a href=&quot;&quot; target=_blank&quot;&gt;Data Fitness for Purpose&lt;/a&gt; und das &lt;a href=&quot;https://dqkit.bonares.de/&quot; target=_blank&quot;&gt;DQ-Kit&lt;/a&gt; zur Verfügung.</help>
+Für weitere Informationen zur Datenqualität und passende Tools für spezifische Anforderungen besuchen Sie die  &lt;a href=&quot;https://fairagro.net/services/data-quality-services/&quot; target=_blank&quot;&gt;FAIRagro Data Quality Services&lt;/a&gt;.</help>
 		<text lang="de">Sind Qualitätskontrollen vorgesehen und wenn ja, in welchem Stadium?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -8679,15 +8713,13 @@ Bedenken Sie bitte, dass nach einer gewissen Sperr- oder Embargofrist eine Publi
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">Aspects of use and copyright as well as questions of ownership must be taken into account on the one hand when you use data from others and on the other hand when you generate data. If you generate your own data, you should clarify which rights are relevant. If you generate data together with partners, you regulate who has what rights of disposal to the data. For later use, you should explain which legal rules apply and, if applicable, under which licenses you will make the data available (publication and sharing, long-term storage and/or digital preservation). &lt;br/&gt;
-Various rights can play a role in data. Whether your data are protected by copyright depends, among other things, on the degree of originality. Information on this can be found, for example, in the &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Information Sheet on the Copyright Protection of Research Data&lt;/a&gt;, or &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Copyright and Licensing of Research Data&lt;/a&gt; (only available in German). &lt;br/&gt;
-For an introduction to copyright, see &lt;a href=&quot;https://fairagro.net/en/copyright-as-the-final-boss/&quot; target=&quot;_blank&quot;&gt;Copyright as the final boss (Singson, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt;, and for information on copyright exceptions and limitations, see  &lt;a href=&quot;https://fairagro.net/freie-fahrt-die-schranken-des-urheberrechts/&quot; target=&quot;_blank&quot;&gt;Freie Fahrt? Die Schranken des Urheberrechts (Bress, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt; (only available in German).</help>
+		<help lang="en">Aspects of rights of use and copyright as well as questions of ownership must be taken into account on the one hand when you use data from others and on the other hand when you generate data. If you generate your own data, you should clarify which rights are relevant. Whether your data are protected by copyright depends, among other things, on the degree of originality. Information on this can be found, for example, in the &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Information Sheet on the Copyright Protection of Research Data&lt;/a&gt;, or &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Copyright and Licensing of Research Data&lt;/a&gt; (only available in German). For an introduction to copyright, see &lt;a href=&quot;https://fairagro.net/en/copyright-as-the-final-boss/&quot; target=&quot;_blank&quot;&gt;Copyright as the final boss (Singson, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt;, and for information on copyright exceptions and limitations, see  &lt;a href=&quot;https://fairagro.net/freie-fahrt-die-schranken-des-urheberrechts/&quot; target=&quot;_blank&quot;&gt;Freie Fahrt? Die Schranken des Urheberrechts (Bress, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt; (only available in German).&lt;br&gt;
+If you generate data together with partners, you regulate who has what rights of disposal to the data. For later use, you should explain which legal rules apply and, if applicable, under which licenses you will make the data available (publication and sharing, long-term storage and/or digital preservation).</help>
 		<text lang="en">What is in place to consider aspects of use and copyright law as well as ownership issues?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nutzungs- und urheberrechtliche Aspekte sowie Eigentumsfragen sind zum einen zu berücksichtigen, wenn Sie Daten Anderer nachnutzen, zum anderen, wenn Sie Daten erzeugen. Sofern Sie eigene Daten erzeugen, sollten Sie klären, welche Rechte einschlägig sind. Wenn Sie Daten gemeinsam mit Partnern erzeugen, regeln Sie, wer welche Verfügungsrechte an den Daten erhält. Für die spätere Nutzung sollten Sie darstellen, welche rechtlichen Regeln gelten und ggfs. unter welchen Lizenzen Sie die Daten zur Verfügung stellen werden (Veröffentlichung und Weitergabe, langfristige Speicherung und/oder Erhaltung). &lt;br/&gt;
-Bei Daten können verschiedene Rechte eine Rolle spielen. Ob Ihre Daten dem urheberrechtlichen Schutz unterliegen, hängt unter anderem von der Schöpfungshöhe ab. Informationen hierzu finden Sie z.B. in dem &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Merkblatt zum urheberrechtlichen Schutz von Forschungsdaten&lt;/a&gt; oder unter &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Urheberrecht und Lizenzierung bei Forschungsdaten&lt;/a&gt;. &lt;br&gt;
-Eine Einführung in das Thema Urheberrecht finden Sie unter &lt;a href=&quot;https://fairagro.net/endgegner-urheberrecht/&quot; target=&quot;_blank&quot;&gt;Endgegner Urheberrecht (Singson, FIZ Karlsruhe, FAIRagro, CC-BY 4.0) &lt;/a&gt;, Informationen zu Ausnahmen und Beschränkungen des Urheberrechts finden Sie unter  &lt;a href=&quot;https://fairagro.net/freie-fahrt-die-schranken-des-urheberrechts/&quot; target=&quot;_blank&quot;&gt;Freie Fahrt? Die Schranken des Urheberrechts (Bress, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt;.</help>
+		<help lang="de">Nutzungs- und urheberrechtliche Aspekte sowie Fragen hinsichtlich der Rechtsinhaberschaft sind zum einen zu berücksichtigen, wenn Sie Daten Anderer nachnutzen, zum anderen, wenn Sie Daten erzeugen. Sofern Sie eigene Daten erzeugen, sollten Sie klären, welche Rechte  anwendbar sind. Ob Ihre Daten dem urheberrechtlichen Schutz unterliegen, hängt unter anderem von der Schöpfungshöhe ab. Informationen hierzu finden Sie z.B. in dem &lt;a href=&quot;https://www.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaavchxo&quot; target=&quot;_blank&quot;&gt;Merkblatt zum urheberrechtlichen Schutz von Forschungsdaten&lt;/a&gt; oder unter &lt;a href=&quot;https://zenodo.org/record/5243232&quot; target=&quot;_blank&quot;&gt;Urheberrecht und Lizenzierung bei Forschungsdaten&lt;/a&gt;. Eine Einführung in das Thema Urheberrecht finden Sie unter &lt;a href=&quot;https://fairagro.net/endgegner-urheberrecht/&quot; target=&quot;_blank&quot;&gt;Endgegner Urheberrecht (Singson, FIZ Karlsruhe, FAIRagro, CC-BY 4.0) &lt;/a&gt;, Informationen zu Ausnahmen und Beschränkungen des Urheberrechts finden Sie unter  &lt;a href=&quot;https://fairagro.net/freie-fahrt-die-schranken-des-urheberrechts/&quot; target=&quot;_blank&quot;&gt;Freie Fahrt? Die Schranken des Urheberrechts (Bress, FIZ Karlsruhe, FAIRagro, CC-BY 4.0)&lt;/a&gt;.&lt;br&gt;
+Wenn Sie Daten gemeinsam mit Partnern erzeugen, regeln Sie, wer welche Verfügungsrechte an den Daten erhält. Für die spätere Nutzung sollten Sie darstellen, welche rechtlichen Regeln gelten und ggfs. unter welchen Lizenzen Sie die Daten zur Verfügung stellen werden (Veröffentlichung und Weitergabe, langfristige Speicherung und/oder Erhaltung).</help>
 		<text lang="de">Auf welche Weise werden nutzungs- und urheberrechtliche Aspekte sowie Eigentumsfragen berücksichtigt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
