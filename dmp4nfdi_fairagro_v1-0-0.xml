@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-04-27T15:05:21.544134+02:00" required="2.1.0" version="2.4.0">
+<rdmo xmlns:dc="http://purl.org/dc/elements/1.1/" created="2026-11-26T13:04:27.105879+01:00" required="2.1.0" version="2.5.2">
 	<catalog dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>dmp4nfdi/v1-0-0</uri_path>
@@ -548,11 +548,11 @@
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>ethics_permit_options/246</uri_path>
 		<dc:comment/>
-		<text lang="en">Yes. The permit has been received</text>
+		<text lang="en">Yes. The permit has been received.</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Ja. Die Genehmigung liegt bereits vor</text>
+		<text lang="de">Ja. Die Genehmigung liegt bereits vor.</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -666,7 +666,22 @@ If non-human genetic resources from other countries are to be used, this may req
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
 		<help lang="de">Zu nennen wäre beispielsweise: Muss die Rechtslage verschiedener Länder beachtet werden? Hat jeder Mitarbeiter die gleichen Zugriffsrechte? Gibt es personenbezogene Daten, evtl. sogar besonders sensible personenbezogene Daten gemäß Art. 9 Abs. 1 DSGVO? Gibt es vertragliche Regelungen zur Datenüberlassung, etwa im Falle von Industriedaten? Gibt es Dritte, die (Urheber-)Rechte an den Daten haben? Unterliegen Daten Vorschriften zur Exportkontrolle? Beachten Sie, dass für den langfristigen Zugang und die Wiederverwendung, einschließlich der Migration zu aktuellen Dateiformaten, der Übertragung von Daten zwischen Systemen und zwischen zuständigen Organisationen, Rechte zum Kopieren (im Zusammenhang mit dem Urheberrecht), klar definierte Zugangsrechte und Wiederverwendungsrechte erforderlich sind, die auch in ferner Zukunft gelten müssen. &lt;br&gt;
-Sollen nichtmenschliche genetische Ressourcen anderer Länder genutzt werden, kann dies die Genehmigung des jeweiligen Landes nach den Vorschriften der &lt;a href=&quot;https://www.bfn.de/abkommen-richtlinie/uebereinkommen-ueber-die-biologische-vielfalt-cbd&quot; target=&quot;_blank&quot;&gt;Convention on Biological Diversity (CBD)&lt;/a&gt;, dem &lt;a href=&quot;https://nagoyaprotocol-hub.de/?lang=de&quot; target=&quot;_blank&quot;&gt;Nagoya-Protokoll&lt;/a&gt; oder dem &lt;a href=&quot;https://www.fao.org/plant-treaty/en&quot; target=&quot;_blank&quot;&gt;Plant-Treaty &lt;/a&gt; voraussetzen.</help>
+Sollen nichtmenschliche genetische Ressourcen anderer Länder genutzt werden, kann dies die Genehmigung des jeweiligen Landes nach den Vorschriften der &lt;a href=&quot;https://www.bfn.de/abkommen-richtlinie/uebereinkommen-ueber-die-biologische-vielfalt-cbd&quot; target=&quot;_blank&quot;&gt;Convention on Biological Diversity (CBD)&lt;/a&gt;, dem &lt;a href=&quot;https://nagoyaprotocol-hub.de/?lang=de&quot; target=&quot;_blank&quot;&gt;Nagoya-Protokoll&lt;/a&gt; oder dem &lt;a href=&quot;https://www.fao.org/plant-treaty/en&quot; target=&quot;_blank&quot;&gt;Plant-Treaty &lt;/a&gt; voraussetzen.
+
+
+
+Zu nennen wäre beispielsweise:
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Internationale Rechtslage:&lt;/strong&gt; Berücksichtigung der Gesetze verschiedener Länder&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Datenschutz (DSGVO):&lt;/strong&gt; Gibt es personenbezogene oder besonders sensible Daten (&lt;a href=&quot;https://dsgvo-gesetz.de/art-9-dsgvo/&quot; target=&quot;_blank&quot;&gt;Art. 9 Abs. 1 DSGVO&lt;/a&gt;)?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Urheberrecht &amp; Eigentum:&lt;/strong&gt; Haben Dritte Rechte an den Daten? Sind Nutzungs- und Kopierrechte klar geregelt?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Vertragliche Vereinbarungen:&lt;/strong&gt; Gibt es Verträge zur Datenüberlassung, etwa im Falle von Industriedaten?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Exportkontrolle:&lt;/strong&gt;  Unterliegen Daten Vorschriften zur Exportkontrolle?&lt;/li&gt;
+
+  &lt;li&gt;&lt;strong&gt;Zugriffsrechte:&lt;/strong&gt; Sind Zugriffsrechte für Mitarbeiter und Dritte klar definiert (z. B. nach Rolle, Funktion)?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Langfristige Nutzung:&lt;/strong&gt; Sind Rechte zum Kopieren, Migration, Übertragung und Wiederverwendung der Daten auch zukünftig gewährleistet?&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Biologische Vielfalt:&lt;/strong&gt; Werden nichtmenschliche genetische Ressourcen aus anderen Ländern genutzt? → kann Genehmigung des Landes nach &lt;a href=&quot;https://www.bfn.de/abkommen-richtlinie/uebereinkommen-ueber-die-biologische-vielfalt-cbd&quot; target=&quot;_blank&quot;&gt;Convention on Biological Diversity (CBD)&lt;/a&gt; / &lt;a href=&quot;https://nagoyaprotocol-hub.de/?lang=de&quot; target=&quot;_blank&quot;&gt;Nagoya-Protokoll&lt;/a&gt; / &lt;a href=&quot;https://www.fao.org/plant-treaty/en&quot; target=&quot;_blank&quot;&gt;Plant-Treaty &lt;/a&gt; voraussetzen&lt;/li&gt;
+&lt;/ul&gt;</help>
 		<text lang="de">Welche rechtlichen Besonderheiten bestehen im Zusammenhang mit dem Umgang mit Forschungsdaten in Ihrem Projekt?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -689,12 +704,12 @@ Sollen nichtmenschliche genetische Ressourcen anderer Länder genutzt werden, ka
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/additional_rdm_policy/yesno"/>
 		<is_collection>False</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">List standards, guidelines, or specifications that are relevant to your discipline, your research, and your institution. In agricultural research, these could include data management requirements, the FAIR principles, subject-specific metadata standards such as MIAPPE, institutional guidelines on open access, data sharing, and research integrity, such as the &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=“_blank”&gt;DFG guidelines on handling research data in biodiversity research&lt;/a&gt;. Please also take into account the &lt;a href=&quot;https://zenodo.org/records/14281892#&quot; target=&quot;_blank&quot;&gt;Guidelines for Safeguarding
+		<help lang="en">List standards, guidelines, or specifications that are relevant to your discipline, your research, and your institution. In agricultural research, these could include data management requirements, the FAIR principles, institutional guidelines on open access, data sharing, and research integrity, such as the &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=“_blank”&gt;DFG guidelines on handling research data in biodiversity research&lt;/a&gt;. Please also take into account the &lt;a href=&quot;https://zenodo.org/records/14281892#&quot; target=&quot;_blank&quot;&gt;Guidelines for Safeguarding
 Good Research Practice&lt;/a&gt;, which is often a legal requirement for research projects in Germany.</help>
 		<text lang="en">Are there any significant research codes or professional standards to be taken into account?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en"/>
-		<help lang="de">Nennen Sie hier Standards, Leitlinien oder Vorgaben, die für Ihre Disziplin, Ihre Forschung und Ihre Einrichtung relevant sind. In der Agrarforschung können dies z. B. Vorgaben zum Datenmanagement, die FAIR-Prinzipien, fachspezifische Metadatenstandards wie MIAPPE, institutionelle Richtlinien zu Open Access, Datenweitergabe und Forschungsintegrität sowie die &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=&quot;_blank&quot;&gt;DFG-Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; sein. Beachten Sie dabei außerdem die &lt;a href=&quot;https://zenodo.org/records/14281892#&quot; target=&quot;_blank&quot;&gt;Gute Wissenschaftliche Praxis&lt;/a&gt;, die für deutsche Forschungsprojekte häufig rechtlich verpflichtend ist.</help>
+		<help lang="de">Nennen Sie hier Standards, Leitlinien oder Vorgaben, die für Ihre Disziplin, Ihre Forschung und Ihre Einrichtung relevant sind. In der Agrarforschung können dies z. B. Vorgaben zum Datenmanagement, die FAIR-Prinzipien, institutionelle Richtlinien zu Open Access, Datenweitergabe und Forschungsintegrität sowie die &lt;a href=&quot;https://www.dfg.de/resource/blob/171716/richtlinien-forschungsdaten-biodiversitaetsforschung.pdf&quot; target=&quot;_blank&quot;&gt;DFG-Richtlinien zum Umgang mit Forschungsdaten in der Biodiversitätsforschung&lt;/a&gt; sein. Beachten Sie dabei außerdem die &lt;a href=&quot;https://zenodo.org/records/14281892#&quot; target=&quot;_blank&quot;&gt;Gute Wissenschaftliche Praxis&lt;/a&gt;, die für deutsche Forschungsprojekte häufig rechtlich verpflichtend ist.</help>
 		<text lang="de">Existieren wichtige wissenschaftliche Kodizes bzw. fachliche Normen, die Berücksichtigung finden sollten?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de"/>
@@ -864,14 +879,16 @@ Das Designrecht (DesignG) schützt die Erscheinungsform eines Produkts, einschli
 		<verbose_name lang="de"/>
 		<default_option/>
 		<default_external_id/>
-		<widget_type>yesno</widget_type>
-		<value_type>boolean</value_type>
+		<widget_type>radio</widget_type>
+		<value_type>text</value_type>
 		<maximum/>
 		<minimum/>
 		<step/>
 		<unit/>
 		<width/>
-		<optionsets/>
+		<optionsets>
+			<optionset dc:uri="https://rdmo.fairagro.net/terms/options/other_requirements_options"/>
+		</optionsets>
 		<conditions/>
 	</question>
 	<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/legal_aspects/ipr/yesno">
@@ -1244,6 +1261,7 @@ Das Designrecht (DesignG) schützt die Erscheinungsform eines Produkts, einschli
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/cr03" order="4"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/cr04" order="5"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/cr05" order="6"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/cr06" order="7"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -1330,6 +1348,20 @@ Das Designrecht (DesignG) schützt die Erscheinungsform eines Produkts, einschli
 		<default_text lang="de"/>
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/cr06">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>cr06</uri_path>
+		<dc:comment/>
+		<text lang="en">There are no further contact persons.</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es gibt keine weiteren Ansprechpartner.</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
 	</option>
 	<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Contributor/rdadmp_role_datamanagement">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
@@ -1738,6 +1770,7 @@ Es kann sich hierbei sowohl um technische bzw. IT-Ressourcen handeln, als auch u
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/resources_option/resources_publication" order="3"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/resources_option/costs" order="4"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/resources_option/other_resources" order="5"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/resources_option/non" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -1824,6 +1857,20 @@ Es kann sich hierbei sowohl um technische bzw. IT-Ressourcen handeln, als auch u
 		<default_text lang="de"/>
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/resources_option/non">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>resources_option/non</uri_path>
+		<dc:comment/>
+		<text lang="en">No additional resources are required.</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Es sind keine weiteren Ressourcen erforderlich.</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
 	</option>
 	<section dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/Dataset">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
@@ -2493,7 +2540,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 	<optionset dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>other_research_output</uri_path>
-		<dc:comment>Such outputs can be either digital (e.g. software, workflows, protocols, models, etc.) or physical (e.g. new materials, antibodies, reagents, samples, etc.)</dc:comment>
+		<dc:comment>Such outputs can be either digital (e.g. software, workflows, protocols, models, etc.) or physical (e.g. new materials, antibodies, reagents, samples, etc.).</dc:comment>
 		<provider_key/>
 		<options>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/software" order="1"/>
@@ -2520,7 +2567,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/workflows">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -2534,7 +2581,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/protocols">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -2548,7 +2595,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/models">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -2562,7 +2609,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/samples">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -2576,7 +2623,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/materials">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -2590,35 +2637,35 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/chemicals">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>other_research_output/chemicals</uri_path>
 		<dc:comment/>
-		<text lang="en">New chemical substances</text>
+		<text lang="en">New chemical substances (reagents, ...)</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Neue chemische Substanzen</text>
+		<text lang="de">Neue chemische Substanzen (Reagenzien, ...)</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/biological">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>other_research_output/biological</uri_path>
 		<dc:comment/>
-		<text lang="en">New biological substances</text>
+		<text lang="en">New biological substances (antibodies, ...)</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Neue biologische Substanzen</text>
+		<text lang="de">Neue biologische Substanzen (Antikörper, ...)</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
-		<additional_input>text</additional_input>
+		<additional_input/>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/other_research_output/other">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -3472,7 +3519,7 @@ Idealerweise geben Sie eine zitierfähige Quelle (z.B. über eine PID) für die 
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>m_grouped</uri_path>
 		<dc:comment/>
-		<text lang="en">(Code *.m</text>
+		<text lang="en">(Code) *.m</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -5826,11 +5873,15 @@ Die DFG möchte hier eine Beschreibung der von Ihnen zur Datenspeicherung und Si
 		<attribute dc:uri="https://rdmorganiser.github.io/terms/domain/project/dataset/pids/system"/>
 		<is_collection>True</is_collection>
 		<is_optional>False</is_optional>
-		<help lang="en">If, after completing the project phase, you decide to use an external data repository that uses DOIs as persistent identifiers (PIDs), it makes sense to take the DOI metadata requirements into account during the project phase. This will avoid having to make adjustments to the metadata later on and reduce the additional effort involved in preparing your research data for publication and archiving.</help>
+		<help lang="en">If, after completing the project phase, you decide to use an external data repository that uses DOIs as persistent identifiers (PIDs), it makes sense to take the DOI metadata requirements into account during the project phase. This will avoid having to make adjustments to the metadata later on and reduce the additional effort involved in preparing your research data for publication and archiving.
+
+Training materials and information about PIDs can be found at &lt;a href=&quot;https://pid.services.base4nfdi.de/resources/training-material/&quot; target=&quot;_blank&quot;&gt;https://pid.services.base4nfdi.de/resources/training-material&lt;/a&gt;.</help>
 		<text lang="en">What system of persistent identifiers shall be used?</text>
 		<default_text lang="en"/>
 		<verbose_name lang="en">persistent identifier</verbose_name>
-		<help lang="de">Wenn Sie sich nach Abschluss des Projektabschnitts für ein externes Datenrepository entscheiden, das DOIs als Persistent Identifiers (PIDs) verwendet, ist es sinnvoll, die DOI-Metadatenanforderungen bereits während der Projektphase zu berücksichtigen. Dadurch lassen sich spätere Anpassungen der Metadaten vermeiden und zusätzlicher Aufwand bei der Vorbereitung Ihrer Forschungsdaten für Veröffentlichung und Archivierung wird reduziert.</help>
+		<help lang="de">Wenn Sie sich nach Abschluss des Projektabschnitts für ein externes Datenrepository entscheiden, das DOIs als Persistent Identifiers (PIDs) verwendet, ist es sinnvoll, die DOI-Metadatenanforderungen bereits während der Projektphase zu berücksichtigen. Dadurch lassen sich spätere Anpassungen der Metadaten vermeiden und zusätzlicher Aufwand bei der Vorbereitung Ihrer Forschungsdaten für Veröffentlichung und Archivierung wird reduziert.
+
+Trainingsmaterialien und Informationen zu PIDs finden sich unter &lt;a href=&quot;https://pid.services.base4nfdi.de/resources/training-material/&quot; target=&quot;_blank&quot;&gt;https://pid.services.base4nfdi.de/resources/training-material&lt;/a&gt;.</help>
 		<text lang="de">Welches System von persistenten Identifikatoren soll genutzt werden?</text>
 		<default_text lang="de"/>
 		<verbose_name lang="de">persistenter Identifikator</verbose_name>
@@ -6524,6 +6575,7 @@ Es ist wichtig zu entscheiden, ob die Daten für die Wiederverwendung zugelassen
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_utility/citizenship" order="5"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_utility/education" order="7"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_utility/other" order="8"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/data_utility/no" order="9"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -6653,6 +6705,20 @@ Es ist wichtig zu entscheiden, ob die Daten für die Wiederverwendung zugelassen
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
 	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/data_utility/no">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>data_utility/no</uri_path>
+		<dc:comment/>
+		<text lang="en">The data is not suitable for reuse in other contexts.</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Die Daten bieten sich nicht für die Nachnutzung in anderen Kontexten an.</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
+	</option>
 	<question dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_preservation_statement">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
 		<uri_path>dmp4nfdi/v1-0-0/DMP/Dataset/rdadmp_preservation_statement</uri_path>
@@ -6740,7 +6806,7 @@ Es ist wichtig zu entscheiden, ob die Daten für die Wiederverwendung zugelassen
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>preservation_motivation_options/131</uri_path>
 		<dc:comment/>
-		<text lang="en">Basis of a publication / proof of good scientific practice</text>
+		<text lang="en">Used in a publication / proof of good scientific practice</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -6782,7 +6848,7 @@ Es ist wichtig zu entscheiden, ob die Daten für die Wiederverwendung zugelassen
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>preservation_motivation_options/133</uri_path>
 		<dc:comment/>
-		<text lang="en">Documentation, because of their societal relevance</text>
+		<text lang="en">Documentation, because it is relevant to society</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
@@ -7054,22 +7120,22 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 		<dc:comment/>
 		<provider_key/>
 		<options>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/69" order="1"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/67" order="1"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/68" order="2"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/67" order="3"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/69" order="3"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/70" order="4"/>
 		</options>
 		<conditions/>
 	</optionset>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/69">
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/67">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dataset_sharing_options/69</uri_path>
+		<uri_path>dataset_sharing_options/67</uri_path>
 		<dc:comment/>
-		<text lang="en">Yes, externally for everyone</text>
+		<text lang="en">Yes, internally with everyone, as long as they don't pass on the data</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Ja, extern für alle</text>
+		<text lang="de">Ja, intern mit allen, solange sie die Daten nicht veröffentlichen oder nach außen weitergeben</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -7089,15 +7155,15 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 		<view_text lang="de"/>
 		<additional_input/>
 	</option>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/67">
+	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_sharing_options/69">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dataset_sharing_options/67</uri_path>
+		<uri_path>dataset_sharing_options/69</uri_path>
 		<dc:comment/>
-		<text lang="en">Yes, internally with everyone, as long as they don't pass on the data</text>
+		<text lang="en">Yes, externally for everyone</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Ja, intern mit allen, solange sie die Daten nicht veröffentlichen oder nach außen weitergeben</text>
+		<text lang="de">Ja, extern für alle</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -7324,22 +7390,20 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/73" order="2"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/74" order="3"/>
 			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/75" order="4"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/ODC-By" order="5"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/ODbl" order="6"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/cc0" order="7"/>
-			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/233" order="8"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/cc0" order="5"/>
+			<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/233" order="6"/>
 		</options>
 		<conditions/>
 	</optionset>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/71">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>dataset_license_types/71</uri_path>
-		<dc:comment>https://creativecommons.org/licenses/by/4.0/legalcode</dc:comment>
-		<text lang="en">Creative Commons Attribution (CC-BY)</text>
+		<dc:comment/>
+		<text lang="en">Attribution (BY)</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Creative Commons Namensnennung (CC-BY)</text>
+		<text lang="de">Namensnennung (BY)</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -7348,12 +7412,12 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/73">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>dataset_license_types/73</uri_path>
-		<dc:comment>https://creativecommons.org/licenses/by-nc/4.0/legalcode</dc:comment>
-		<text lang="en">Creative Commons Attribution-NonCommercial (CC-BY-NC)</text>
+		<dc:comment/>
+		<text lang="en">Non-commercial (NC)</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Creative Commons Namensnennung-Nicht kommerziell (CC-BY-NC)</text>
+		<text lang="de">keine kommerzielle Nutzung (NC)</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -7362,12 +7426,12 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/74">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>dataset_license_types/74</uri_path>
-		<dc:comment>https://creativecommons.org/licenses/by-nd/4.0/legalcode</dc:comment>
-		<text lang="en">Creative Commons Attribution-NoDerivatives (CC-BY-ND)</text>
+		<dc:comment/>
+		<text lang="en">No derivative work (ND)</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Creative Commons Namensnennung-Keine Bearbeitungen (CC-BY-ND)</text>
+		<text lang="de">keine Bearbeitung (ND)</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -7376,44 +7440,16 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/75">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>dataset_license_types/75</uri_path>
-		<dc:comment>https://creativecommons.org/licenses/by-sa/4.0/legalcode</dc:comment>
-		<text lang="en">Creative Commons Attribution-ShareAlike (CC-BY-SA)</text>
+		<dc:comment/>
+		<text lang="en">Share-alike (SA)</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Creative Commons Namensnennung-ShareAlike (CC-BY-SA)</text>
+		<text lang="de">Weitergabe unter gleichen Bedingungen (SA)</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
 		<additional_input/>
-	</option>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/ODC-By">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dataset_license_types/ODC-By</uri_path>
-		<dc:comment>https://opendatacommons.org/licenses/by/1-0/</dc:comment>
-		<text lang="en">Open Data Commons Attribution</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Open Data Commons Attribution</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input>text</additional_input>
-	</option>
-	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/ODbl">
-		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
-		<uri_path>dataset_license_types/ODbl</uri_path>
-		<dc:comment>https://opendatacommons.org/licenses/odbl/1-0/</dc:comment>
-		<text lang="en">Open Data Commons Open Database</text>
-		<help lang="en"/>
-		<default_text lang="en"/>
-		<view_text lang="en"/>
-		<text lang="de">Open Data Commons Open Database</text>
-		<help lang="de"/>
-		<default_text lang="de"/>
-		<view_text lang="de"/>
-		<additional_input>text</additional_input>
 	</option>
 	<option dc:uri="https://rdmorganiser.github.io/terms/options/dataset_license_types/cc0">
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
@@ -7433,11 +7469,11 @@ Wählen Sie die zutreffende Option aus und präzisieren Sie, wenn möglich, das 
 		<uri_prefix>https://rdmorganiser.github.io/terms</uri_prefix>
 		<uri_path>dataset_license_types/233</uri_path>
 		<dc:comment/>
-		<text lang="en">Other, or exact designation – if known</text>
+		<text lang="en">Other</text>
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Andere, bzw. genaue Bezeichnung – falls bekannt</text>
+		<text lang="de">Andere</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
@@ -7786,6 +7822,7 @@ Wenn Ihre Daten in die Kategorie personenbezogener Daten fallen, empfiehlt es si
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/other_sensitive_data/cooperation" order="4"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/other_sensitive_data/nagoya" order="5"/>
 			<option dc:uri="https://rdmo.fairagro.net/terms/options/other_sensitive_data/other" order="6"/>
+			<option dc:uri="https://rdmo.fairagro.net/terms/options/other_sensitive_data/no" order="7"/>
 		</options>
 		<conditions/>
 	</optionset>
@@ -7872,6 +7909,20 @@ Wenn Ihre Daten in die Kategorie personenbezogener Daten fallen, empfiehlt es si
 		<default_text lang="de"/>
 		<view_text lang="de"/>
 		<additional_input>text</additional_input>
+	</option>
+	<option dc:uri="https://rdmo.fairagro.net/terms/options/other_sensitive_data/no">
+		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
+		<uri_path>other_sensitive_data/no</uri_path>
+		<dc:comment/>
+		<text lang="en">The dataset does not contain any non-personal sensitive data.</text>
+		<help lang="en"/>
+		<default_text lang="en"/>
+		<view_text lang="en"/>
+		<text lang="de">Der Datensatz enthält keine nicht-personenbezogenen sensiblen Daten.</text>
+		<help lang="de"/>
+		<default_text lang="de"/>
+		<view_text lang="de"/>
+		<additional_input/>
 	</option>
 	<page dc:uri="https://rdmo.fairagro.net/terms/questions/dmp4nfdi/v1-0-0/DMP/Dataset/Host/archiving">
 		<uri_prefix>https://rdmo.fairagro.net/terms</uri_prefix>
@@ -8468,7 +8519,7 @@ Legen Sie fest, wo und wie Ihre Daten gespeichert werden sollen. Das Repositoriu
 		<help lang="en"/>
 		<default_text lang="en"/>
 		<view_text lang="en"/>
-		<text lang="de">Nutzende müssen sich registrieren, um das Repositorium nutzen zu können</text>
+		<text lang="de">Nutzende müssen sich registrieren, um das Repositorium nutzen zu können.</text>
 		<help lang="de"/>
 		<default_text lang="de"/>
 		<view_text lang="de"/>
