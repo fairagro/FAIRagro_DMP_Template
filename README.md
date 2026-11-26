@@ -8,4 +8,10 @@ Furthermore, it can be imported to other RDMO instances through the xml file pro
 
 For feedback on the template please contact the [FAIRagro Helpdesk](mailto:dataservice@fairagro.net) or [create an issue](https://github.com/fairagro/FAIRagro_DMP_Template/issues/new) in this Github repository.
 
-last update: 25.02.2026
+last update: 26.11.2026
+
+## Acknowledgements
+ 
+This work was created as part of the NFDI consortium FAIRagro (www.fairagro.net). We gratefully acknowledge the financial support of the German Research Foundation (DFG) – project number 501899475.
+ 
+<img src="https://fairagro.net/assets/Fairagro_Logo_lb_ohLiRand_weiss.svg" alt="FAIRagro Logo" style="width:300px;" />
